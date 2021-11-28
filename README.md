@@ -1,6 +1,6 @@
 # Knotters Translations
 
-![https://img.shields.io/static/v1?label=Knotters&message=Project&color=12e49d&link=https://knotters.org&style=for-the-badge](https://img.shields.io/static/v1?label=Knotters&message=Project&color=12e49d&link=https://knotters.org&style=for-the-badge)
+![Presence on Knotters!](https://img.shields.io/static/v1?label=Knotters&message=Project&color=12e49d&link=https://knotters.org&style=for-the-badge)
 
 This repository contains translations for the [Knotters platform](https://knotters.org).
 
