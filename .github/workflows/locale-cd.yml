@@ -1,0 +1,29 @@
+name: Locale CD
+
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - "**/*.md"
+      - "LICENSE"
+      - "**/*.sh"
+      - "**/*.bat"
+      - "**/*.exe"
+      - "**/*.mo"
+      
+jobs:
+  deploy:
+    runs-on: [self-hosted, knotters, translation, deploy]
+    strategy:
+      max-parallel: 1
+      matrix:
+        python-version: [3.8]
+
+    steps:
+    - name: Merge changes
+      run: |
+        git pull
+    - name: Compile messages
+      working-directory: ${{ secrets.MANAGE_PATH }}
+      run: |
+        python3 manage.py compilemessages
