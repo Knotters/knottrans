@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-27 01:41+0530\n"
+"POT-Creation-Date: 2021-11-28 21:30+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -146,7 +146,7 @@ msgstr ""
 msgid "Report a problem"
 msgstr ""
 
-#: templates/account/email/base_message.html:362 templates/index.html:183
+#: templates/account/email/base_message.html:362 templates/index.html:192
 msgid "Terms of service"
 msgstr ""
 
@@ -419,13 +419,8 @@ msgid "Retype new Password"
 msgstr ""
 
 #: templates/account/signup.html:11 templates/account/signup.html:12
-#: templates/account/signup.html:15
-#, python-format
-msgid "{%% trans "
-msgstr ""
-
-#: templates/account/signup.html:16 templates/account/signup.html:17
-#: templates/account/signup.html:22
+#: templates/account/signup.html:15 templates/account/signup.html:16
+#: templates/account/signup.html:17 templates/account/signup.html:22
 msgid "Join community"
 msgstr ""
 
@@ -845,7 +840,7 @@ msgstr ""
 msgid "Learn More"
 msgstr ""
 
-#: templates/compete/index.html:58 templates/index.html:145
+#: templates/compete/index.html:58 templates/index.html:154
 #: templates/people/index.html:49 templates/projects/index.html:61
 msgid "I'm ready"
 msgstr ""
@@ -875,7 +870,7 @@ msgstr ""
 #: templates/compete/index/active.html:22
 #: templates/compete/index/history.html:23
 #: templates/compete/index/upcoming.html:22
-#: templates/compete/profile/result.html:84
+#: templates/compete/profile/result.html:84 templates/index.html:136
 #: templates/people/profile/competitions.html:15
 #: templates/people/profile/moderation.html:25
 #: templates/people/profile/moderation.html:29
@@ -1268,7 +1263,7 @@ msgstr ""
 #: templates/docs/index.html:16 templates/docs/index.html:18
 #: templates/docs/index.html:20 templates/docs/index.html:22
 #: templates/docs/index.html:31 templates/docs/index.html:60
-#: templates/index.html:182
+#: templates/index.html:191
 msgid "Docs"
 msgstr ""
 
@@ -1332,8 +1327,9 @@ msgstr ""
 msgid "Projects"
 msgstr ""
 
-#: templates/index.html:100 templates/people/index.html:20
-#: templates/people/index.html:25 templates/people/index.html:33
+#: templates/index.html:100 templates/index.html:206
+#: templates/people/index.html:20 templates/people/index.html:25
+#: templates/people/index.html:33
 msgid "Community"
 msgstr ""
 
@@ -1341,65 +1337,65 @@ msgstr ""
 msgid "Join"
 msgstr ""
 
-#: templates/index.html:140 templates/index.html:141
+#: templates/index.html:149 templates/index.html:150
 #, python-format
 msgid "Welcome to %(APPNAME)s"
 msgstr ""
 
-#: templates/index.html:143
+#: templates/index.html:152
 msgid "Ready to takeoff? Virtually ofcourse."
 msgstr ""
 
-#: templates/index.html:144
+#: templates/index.html:153
 msgid "Get ready"
 msgstr ""
 
-#: templates/index.html:162 templates/people/index.html:73
+#: templates/index.html:171 templates/people/index.html:73
 #: templates/projects/index.html:85
 msgid "That's all here for now."
 msgstr ""
 
-#: templates/index.html:163 templates/people/index.html:74
+#: templates/index.html:172 templates/people/index.html:74
 #: templates/projects/index.html:86
 msgid "Browse other things meanwhile."
 msgstr ""
 
-#: templates/index.html:181 templates/moderation/projects.html:40
+#: templates/index.html:190 templates/moderation/projects.html:40
 #: templates/moderation/projects.html:54 templates/moderation/projects.html:177
 #: templates/moderation/projects.html:198 templates/people/profile.html:142
 #: templates/projects/profile/0.html:74
 msgid "Report"
 msgstr ""
 
-#: templates/index.html:181
+#: templates/index.html:190
 msgid "Feedback"
 msgstr ""
 
-#: templates/index.html:182
+#: templates/index.html:191
 msgid "statements"
 msgstr ""
 
-#: templates/index.html:184
+#: templates/index.html:193
 msgid "Privacy Policy"
 msgstr ""
 
-#: templates/index.html:188
+#: templates/index.html:197
 msgid "Contact us"
 msgstr ""
 
-#: templates/index.html:189 templates/landing.html:19
+#: templates/index.html:198 templates/landing.html:19
 msgid "The Landing Page"
 msgstr ""
 
-#: templates/index.html:190
+#: templates/index.html:199
 msgid "API"
 msgstr ""
 
-#: templates/index.html:191
+#: templates/index.html:200
 msgid "Beta"
 msgstr ""
 
-#: templates/index.html:218
+#: templates/index.html:227
 msgid "Copyright"
 msgstr ""
 
@@ -2265,7 +2261,8 @@ msgstr ""
 msgid "Create project"
 msgstr ""
 
-#: templates/projects/create.html:19 templates/projects/license/index.html:10
+#: templates/projects/create.html:19 templates/projects/index.html:32
+#: templates/projects/license/index.html:10
 #: templates/projects/license/index.html:12
 #: templates/projects/license/index.html:15
 #: templates/projects/license/index.html:18
@@ -2295,6 +2292,10 @@ msgstr ""
 
 #: templates/projects/create/1.html:27
 msgid "Do not fill any personal information at any step."
+msgstr ""
+
+#: templates/projects/index.html:33
+msgid "New project"
 msgstr ""
 
 #: templates/projects/index.html:70

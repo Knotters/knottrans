@@ -2,13 +2,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-11-27 01:41+0530\n"
+"POT-Creation-Date: 2021-11-28 21:30+0530\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -144,7 +144,7 @@ msgstr "ईमेल पता जोड़ें"
 msgid "Report a problem"
 msgstr "समस्या बताएं"
 
-#: templates/account/email/base_message.html:362 templates/index.html:183
+#: templates/account/email/base_message.html:362 templates/index.html:192
 msgid "Terms of service"
 msgstr "सेवा की शर्तें"
 
@@ -335,7 +335,9 @@ msgstr "पासवर्ड रीसेट"
 msgid ""
 "Provide us your registered email address, and we'll send you a link to reset "
 "your password."
-msgstr "हमें अपना पंजीकृत ईमेल पता प्रदान करें, और हम आपको आपका पासवर्ड रीसेट करने के लिए एक लिंक भेजेंगे।"
+msgstr ""
+"हमें अपना पंजीकृत ईमेल पता प्रदान करें, और हम आपको आपका पासवर्ड रीसेट करने के लिए एक लिंक "
+"भेजेंगे।"
 
 #: templates/account/password_reset.html:29
 msgid "Your email address"
@@ -417,13 +419,8 @@ msgid "Retype new Password"
 msgstr ""
 
 #: templates/account/signup.html:11 templates/account/signup.html:12
-#: templates/account/signup.html:15
-#, python-format
-msgid "{%% trans "
-msgstr ""
-
-#: templates/account/signup.html:16 templates/account/signup.html:17
-#: templates/account/signup.html:22
+#: templates/account/signup.html:15 templates/account/signup.html:16
+#: templates/account/signup.html:17 templates/account/signup.html:22
 msgid "Join community"
 msgstr "हमसे जुड़ें"
 
@@ -481,7 +478,9 @@ msgstr "अपना ईमेल पता सत्यापित करन�
 msgid ""
 "Your account will be deleted if you don't verify your primary email address "
 "under 3 days."
-msgstr "यदि आप 3 दिनों से कम समय में अपना प्राथमिक ईमेल पता सत्यापित नहीं करते हैं, तो आपका खाता हटा दिया जाएगा।"
+msgstr ""
+"यदि आप 3 दिनों से कम समय में अपना प्राथमिक ईमेल पता सत्यापित नहीं करते हैं, तो आपका "
+"खाता हटा दिया जाएगा।"
 
 #: templates/account/verified_email_required.html:12
 msgid "Email Verification"
@@ -562,7 +561,8 @@ msgstr "अपने पुनर्प्राप्ति टोकन जे
 msgid ""
 "Save these tokens at a secure place. Losing these can lock you out of your "
 "account!"
-msgstr "इन टोकनों को सुरक्षित जगह पर सेव कर लें। इन्हें खोने से आप अपने खाते से लॉक हो सकते हैं!"
+msgstr ""
+"इन टोकनों को सुरक्षित जगह पर सेव कर लें। इन्हें खोने से आप अपने खाते से लॉक हो सकते हैं!"
 
 #: templates/allauth_2fa/backup_tokens.html:32
 msgid ""
@@ -779,7 +779,8 @@ msgstr ""
 msgid ""
 "To verify the authenticity of the certificate, type that ID in following "
 "input."
-msgstr "प्रमाण पत्र की प्रामाणिकता को सत्यापित करने के लिए, उस आईडी को इनपुट में टाइप करें।"
+msgstr ""
+"प्रमाण पत्र की प्रामाणिकता को सत्यापित करने के लिए, उस आईडी को इनपुट में टाइप करें।"
 
 #: templates/compete/certificate/index.html:35
 msgid "Enter the 32-digit certificate ID"
@@ -793,7 +794,9 @@ msgstr "प्रमाणपत्र सत्यापित करें"
 msgid ""
 "If a certificate shared with you doesn't have an ID or QR code, or it has "
 "but isn't being found here, it could possibly be invalid."
-msgstr "यदि आपके साथ साझा किए गए किसी प्रमाणपत्र में कोई आईडी या क्यूआर कोड नहीं है, या उसमें है, लेकिन वह यहां नहीं मिल रहा है, तो यह संभवतः अमान्य हो सकता है।"
+msgstr ""
+"यदि आपके साथ साझा किए गए किसी प्रमाणपत्र में कोई आईडी या क्यूआर कोड नहीं है, या उसमें "
+"है, लेकिन वह यहां नहीं मिल रहा है, तो यह संभवतः अमान्य हो सकता है।"
 
 #: templates/compete/certificate/index.html:44
 msgid "If you think someone is issuing fake certificates on behalf of us"
@@ -814,7 +817,8 @@ msgstr "हमें"
 #: templates/compete/certificate/index.html:45
 msgid ""
 "If your certificate doesn't have an ID, or it has but isn't being found here"
-msgstr "अगर आपके प्रमाणपत्र में कोई आईडी नहीं है, या उसके पास है, लेकिन यहां नहीं मिल रहा है"
+msgstr ""
+"अगर आपके प्रमाणपत्र में कोई आईडी नहीं है, या उसके पास है, लेकिन यहां नहीं मिल रहा है"
 
 #: templates/compete/certificate/index.html:45
 msgid "then you may"
@@ -845,7 +849,7 @@ msgstr ""
 msgid "Learn More"
 msgstr "और जानें"
 
-#: templates/compete/index.html:58 templates/index.html:145
+#: templates/compete/index.html:58 templates/index.html:154
 #: templates/people/index.html:49 templates/projects/index.html:61
 msgid "I'm ready"
 msgstr "मैं तैयार हूं"
@@ -875,7 +879,7 @@ msgstr "समाप्त होगा"
 #: templates/compete/index/active.html:22
 #: templates/compete/index/history.html:23
 #: templates/compete/index/upcoming.html:22
-#: templates/compete/profile/result.html:84
+#: templates/compete/profile/result.html:84 templates/index.html:136
 #: templates/people/profile/competitions.html:15
 #: templates/people/profile/moderation.html:25
 #: templates/people/profile/moderation.html:29
@@ -980,8 +984,9 @@ msgstr "क्या जमा करें"
 msgid ""
 "Your submission should be a valid URL with all the neccessary content "
 "required by the task of this competition."
-msgstr "आपका सबमिशन सभी आवश्यक सामग्री के साथ एक मान्य URL होना चाहिए "
-"इस प्रतियोगिता के कार्य के लिए आवश्यक है।"
+msgstr ""
+"आपका सबमिशन सभी आवश्यक सामग्री के साथ एक मान्य URL होना चाहिए इस प्रतियोगिता के "
+"कार्य के लिए आवश्यक है।"
 
 #: templates/compete/profile/guidelines.html:11
 msgid ""
@@ -993,7 +998,9 @@ msgstr ""
 msgid ""
 "If our judges and moderator are unable to access the content provided on "
 "your submission URL, then your submission will stand INVALID."
-msgstr "सुनिश्चित करें कि आपका प्रदान किया गया URL सबमिट करने के बाद हर समय सार्वजनिक रूप से उपलब्ध है।"
+msgstr ""
+"सुनिश्चित करें कि आपका प्रदान किया गया URL सबमिट करने के बाद हर समय सार्वजनिक रूप से "
+"उपलब्ध है।"
 
 #: templates/compete/profile/guidelines.html:15
 msgid "Where to submit"
@@ -1011,14 +1018,18 @@ msgstr "कब जमा करें"
 msgid ""
 "It is a general advise that you should prepare your submission till at least "
 "an hour before a competition ends, to avoid hassle."
-msgstr "यह एक सामान्य सलाह है कि परेशानी से बचने के लिए आपको प्रतियोगिता समाप्त होने से कम से कम एक घंटे पहले तक अपना सबमिशन तैयार करना चाहिए।"
+msgstr ""
+"यह एक सामान्य सलाह है कि परेशानी से बचने के लिए आपको प्रतियोगिता समाप्त होने से कम से "
+"कम एक घंटे पहले तक अपना सबमिशन तैयार करना चाहिए।"
 
 #: templates/compete/profile/overview.html:9
-msgid "इस प्रतियोगिता के विषय"
-msgstr ""
+#, fuzzy
+#| msgid "No upcoming competitions."
+msgid "Topics of this competition"
+msgstr "कोई आगामी प्रतियोगिता नहीं।"
 
 #: templates/compete/profile/overview.html:18
-msgid "रैंक पुरस्कार"
+msgid "Rank prizes"
 msgstr ""
 
 #: templates/compete/profile/overview.html:33
@@ -1038,11 +1049,15 @@ msgstr "।"
 msgid ""
 "The points obtained from this competition can be claimed as XP for your "
 "profile."
-msgstr "इस प्रतियोगिता से प्राप्त अंकों को आपकी प्रोफ़ाइल के लिए XP के रूप में दावा किया जा सकता है।"
+msgstr ""
+"इस प्रतियोगिता से प्राप्त अंकों को आपकी प्रोफ़ाइल के लिए XP के रूप में दावा किया जा सकता "
+"है।"
 
 #: templates/compete/profile/overview.html:37
-msgid "विवरण"
-msgstr ""
+#, fuzzy
+#| msgid "Association"
+msgid "Description"
+msgstr "सहयोग"
 
 #: templates/compete/profile/result.html:12
 #: templates/people/profile/moderation.html:51
@@ -1174,7 +1189,8 @@ msgstr "स्वतंत्र रूप से भाग लें"
 msgid ""
 "If you have been invited, then the above button will cancel your pending "
 "invitations."
-msgstr "यदि आपको आमंत्रित किया गया है, तो उपरोक्त बटन आपके लंबित आमंत्रणों को रद्द कर देगा।"
+msgstr ""
+"यदि आपको आमंत्रित किया गया है, तो उपरोक्त बटन आपके लंबित आमंत्रणों को रद्द कर देगा।"
 
 #: templates/compete/profile/submission.html:113
 msgid "You have a pending invitation for participation in this competition"
@@ -1209,7 +1225,9 @@ msgstr "समुदाय दिशानिर्देश"
 msgid ""
 "Liberty to create & contribute for betterment of each other is the central "
 "aspect of our guidelines."
-msgstr "एक दूसरे की बेहतरी के लिए सृजन और योगदान करने की स्वतंत्रता हमारे दिशानिर्देशों का केंद्रीय पहलू है।"
+msgstr ""
+"एक दूसरे की बेहतरी के लिए सृजन और योगदान करने की स्वतंत्रता हमारे दिशानिर्देशों का केंद्रीय "
+"पहलू है।"
 
 #: templates/docs/competitionguidelines.html:10
 #: templates/docs/competitionguidelines.html:12
@@ -1269,7 +1287,7 @@ msgstr "हम आपकी चिंताओं को दूर करने 
 #: templates/docs/index.html:16 templates/docs/index.html:18
 #: templates/docs/index.html:20 templates/docs/index.html:22
 #: templates/docs/index.html:31 templates/docs/index.html:60
-#: templates/index.html:182
+#: templates/index.html:191
 msgid "Docs"
 msgstr "दस्तावेज़"
 
@@ -1333,8 +1351,9 @@ msgstr "और जानने के लिए यहां क्लिक क
 msgid "Projects"
 msgstr "परियोजनाएं"
 
-#: templates/index.html:100 templates/people/index.html:20
-#: templates/people/index.html:25 templates/people/index.html:33
+#: templates/index.html:100 templates/index.html:206
+#: templates/people/index.html:20 templates/people/index.html:25
+#: templates/people/index.html:33
 msgid "Community"
 msgstr "समुदाय"
 
@@ -1342,65 +1361,65 @@ msgstr "समुदाय"
 msgid "Join"
 msgstr "शामिल हों"
 
-#: templates/index.html:140 templates/index.html:141
+#: templates/index.html:149 templates/index.html:150
 #, python-format
 msgid "Welcome to %(APPNAME)s"
 msgstr "%(APPNAME)s में आपका स्वागत है"
 
-#: templates/index.html:143
+#: templates/index.html:152
 msgid "Ready to takeoff? Virtually ofcourse."
 msgstr "वस्तुतः उड़ान के लिए तैयार?"
 
-#: templates/index.html:144
+#: templates/index.html:153
 msgid "Get ready"
 msgstr "तैयार करें"
 
-#: templates/index.html:162 templates/people/index.html:73
+#: templates/index.html:171 templates/people/index.html:73
 #: templates/projects/index.html:85
 msgid "That's all here for now."
 msgstr "अभी के लिए बस इतना ही।"
 
-#: templates/index.html:163 templates/people/index.html:74
+#: templates/index.html:172 templates/people/index.html:74
 #: templates/projects/index.html:86
 msgid "Browse other things meanwhile."
 msgstr "इस बीच अन्य चीजें ब्राउज़ करें।"
 
-#: templates/index.html:181 templates/moderation/projects.html:40
+#: templates/index.html:190 templates/moderation/projects.html:40
 #: templates/moderation/projects.html:54 templates/moderation/projects.html:177
 #: templates/moderation/projects.html:198 templates/people/profile.html:142
 #: templates/projects/profile/0.html:74
 msgid "Report"
 msgstr "रिपोर्ट"
 
-#: templates/index.html:181
+#: templates/index.html:190
 msgid "Feedback"
 msgstr "प्रतिक्रिया"
 
-#: templates/index.html:182
+#: templates/index.html:191
 msgid "statements"
 msgstr "बयान"
 
-#: templates/index.html:184
+#: templates/index.html:193
 msgid "Privacy Policy"
 msgstr "गोपनीयता नीति"
 
-#: templates/index.html:188
+#: templates/index.html:197
 msgid "Contact us"
 msgstr "हमसे संपर्क करें"
 
-#: templates/index.html:189 templates/landing.html:19
+#: templates/index.html:198 templates/landing.html:19
 msgid "The Landing Page"
 msgstr "लैंडिंग पेज"
 
-#: templates/index.html:190
+#: templates/index.html:199
 msgid "API"
 msgstr "ए.पी.आई"
 
-#: templates/index.html:191
+#: templates/index.html:200
 msgid "Beta"
 msgstr "बीटा"
 
-#: templates/index.html:218
+#: templates/index.html:227
 msgid "Copyright"
 msgstr "कॉपीराइट"
 
@@ -1580,7 +1599,9 @@ msgstr "ड्यूटी पर मॉडरेटर"
 msgid ""
 "Please wait while the moderator filters out valid submissions for you to "
 "judge."
-msgstr "कृपया तब तक प्रतीक्षा करें जब तक मॉडरेटर मान्य सबमिशन को फ़िल्टर कर देता है ताकि आप निर्णय ले सकें।"
+msgstr ""
+"कृपया तब तक प्रतीक्षा करें जब तक मॉडरेटर मान्य सबमिशन को फ़िल्टर कर देता है ताकि आप "
+"निर्णय ले सकें।"
 
 #: templates/moderation/compete.html:96
 msgid "We'll email you as soon as this is done for you."
@@ -1596,7 +1617,8 @@ msgstr "परिणाम देखें"
 
 #: templates/moderation/compete.html:115
 msgid "All submissions have been marked & results are waiting to be declared."
-msgstr "सभी सबमिशन को चिह्नित कर लिया गया है और परिणाम घोषित होने की प्रतीक्षा कर रहे हैं।"
+msgstr ""
+"सभी सबमिशन को चिह्नित कर लिया गया है और परिणाम घोषित होने की प्रतीक्षा कर रहे हैं।"
 
 #: templates/moderation/compete.html:116
 msgid "Results will be declared by the manager, soon."
@@ -1612,7 +1634,9 @@ msgstr "एक बार घोषित होने के बाद हम �
 msgid ""
 "Your certificate of appreciation will also be available, you'll be notified "
 "via email about that."
-msgstr "आपका प्रशंसा प्रमाणपत्र भी उपलब्ध होगा, आपको इसके बारे में ईमेल के माध्यम से सूचित किया जाएगा।"
+msgstr ""
+"आपका प्रशंसा प्रमाणपत्र भी उपलब्ध होगा, आपको इसके बारे में ईमेल के माध्यम से सूचित किया "
+"जाएगा।"
 
 #: templates/moderation/compete.html:126
 msgid "Judges on duty"
@@ -1627,20 +1651,28 @@ msgid "Thank you for your contribution."
 msgstr "आपके योगदान के लिए आपका धन्यवाद।"
 
 #: templates/moderation/compete.html:136
-msgid "सभी सबमिशन आपके द्वारा चिह्नित किए गए हैं।"
+#, fuzzy
+#| msgid ""
+#| "All submissions have been marked & results are waiting to be declared."
+msgid "All submissions have been marked by you."
 msgstr ""
+"सभी सबमिशन को चिह्नित कर लिया गया है और परिणाम घोषित होने की प्रतीक्षा कर रहे हैं।"
 
 #: templates/moderation/compete.html:136
-msgid "जल्द ही परिणाम घोषित किए जाएंगे।"
-msgstr ""
+#, fuzzy
+#| msgid "Results will be declared soon"
+msgid "Results will be declared soon."
+msgstr "परिणाम जल्द ही घोषित किए जाएंगे"
 
 #: templates/moderation/compete.html:137
-msgid "इस प्रतियोगिता में आपको जज के रूप में पाकर हम आपके आभारी हैं।"
+msgid "We're grateful to have you as judge in this competition."
 msgstr ""
 
 #: templates/moderation/compete.html:142
-msgid "प्रबंधक आपके द्वारा सबमिशन चिह्नित किए जाने की प्रतीक्षा कर रहा है।"
-msgstr ""
+#, fuzzy
+#| msgid "Judges are waiting for submissions to be approved by you."
+msgid "Manager is waiting for submissions to be marked by you."
+msgstr "न्यायाधीश आपके द्वारा प्रस्तुतियाँ स्वीकृत किए जाने की प्रतीक्षा कर रहे हैं।"
 
 #: templates/moderation/compete.html:144 templates/moderation/compete.html:347
 msgid "Send for ranking"
@@ -2266,7 +2298,8 @@ msgstr "प्रोजेक्ट बनाएं"
 msgid "Create project"
 msgstr "प्रोजेक्ट बनाएं"
 
-#: templates/projects/create.html:19 templates/projects/license/index.html:10
+#: templates/projects/create.html:19 templates/projects/index.html:32
+#: templates/projects/license/index.html:10
 #: templates/projects/license/index.html:12
 #: templates/projects/license/index.html:15
 #: templates/projects/license/index.html:18
@@ -2298,6 +2331,10 @@ msgstr "परियोजना सबमिट करें"
 msgid "Do not fill any personal information at any step."
 msgstr ""
 
+#: templates/projects/index.html:33
+msgid "New project"
+msgstr "नई परियोजना"
+
 #: templates/projects/index.html:70
 msgid "Type to search for projects"
 msgstr "प्रोजेक्ट खोजने के लिए टाइप करें"
@@ -2327,6 +2364,11 @@ msgid "Source"
 msgstr ""
 
 #: templates/projects/license/license.html:60
+#, fuzzy, python-format
+#| msgid ""
+#| "This license is not provided by %(APPNAME)s, and may require modification "
+#| "to use, and permission from <a target=\"_blank\" href=\"%(creatorlink)s"
+#| "\">creator</a>"
 msgid ""
 "This license is not provided by %(APPNAME)s, and may require modification to "
 "use, and permission from <a target=\"_blank\" href=\"%(creatorlink)s"
