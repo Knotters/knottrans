@@ -1992,7 +1992,7 @@ msgstr ""
 #: templates/projects/license/search.html:10
 #, python-format
 msgid "Results for '%(query)s'"
-msgstr ""
+msgstr "'%(query)s' के लिए परिणाम"
 
 #: templates/people/browse/search.html:31
 #: templates/people/browse/search.html:56
@@ -2013,12 +2013,12 @@ msgstr ""
 
 #: templates/people/profile.html:56
 msgid "Your account is currently deactived."
-msgstr ""
+msgstr "आपका खाता वर्तमान में निष्क्रिय है"
 
 #: templates/people/profile.html:57
 msgid ""
 "This means your profile is currently not visible to anyone in the world."
-msgstr ""
+msgstr "इसका मतलब है कि आपकी प्रोफ़ाइल वर्तमान में दुनिया में किसी को भी दिखाई नहीं दे रही है"
 
 #: templates/people/profile.html:59
 msgid ""
@@ -2028,15 +2028,15 @@ msgstr ""
 
 #: templates/people/profile.html:61
 msgid "If you have changed your mind, then you can reactivate your account."
-msgstr ""
+msgstr "यदि आपने अपना विचार बदल दिया है, तो आप अपने खाते को पुनः सक्रिय कर सकते हैं।"
 
 #: templates/people/profile.html:62
 msgid "Re-activate my account"
-msgstr ""
+msgstr "मेरा खाता सक्रिय करें"
 
 #: templates/people/profile.html:63
 msgid "You'll have to login again after reactivating."
-msgstr ""
+msgstr "पुनः सक्रिय करने के बाद आपको फिर से लॉगिन करना होगा"
 
 #: templates/people/profile.html:132
 msgid "Email ID"
