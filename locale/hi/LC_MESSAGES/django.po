@@ -949,7 +949,7 @@ msgstr "प्रतियोगिता शुरू होने के ब�
 
 #: templates/compete/profile.html:123
 msgid "competition guidelines"
-msgstr ""
+msgstr "प्रतियोगिता दिशानिर्देश"
 
 #: templates/compete/profile.html:130 templates/people/profile.html:151
 msgid "Overview"
@@ -1236,7 +1236,7 @@ msgstr ""
 #: templates/docs/competitionguidelines.html:19
 #: templates/docs/competitionguidelines.html:30 templates/docs/index.html:53
 msgid "Competition Guidelines"
-msgstr ""
+msgstr "प्रतियोगिता दिशानिर्देश"
 
 #: templates/docs/competitionguidelines.html:11
 #: templates/docs/competitionguidelines.html:16
