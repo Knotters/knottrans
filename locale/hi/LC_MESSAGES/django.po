@@ -20,15 +20,15 @@ msgstr ""
 
 #: templates/403.html:7 templates/403.html:19
 msgid "Forbidden"
-msgstr ""
+msgstr "वर्जित"
 
 #: templates/403.html:20
 msgid "This part of our application is currently not allowed for you."
-msgstr ""
+msgstr "हमारे आवेदन के इस भाग की वर्तमान में आपके लिए अनुमति नहीं है।"
 
 #: templates/403.html:20
 msgid "Try again later."
-msgstr ""
+msgstr "बाद में पुन: प्रयास करें"
 
 #: templates/403.html:21 templates/404.html:30 templates/500.html:22
 #: templates/account/account_inactive.html:30 templates/account/logout.html:38
