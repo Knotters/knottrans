@@ -1,7 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# Knotters translations language HINDI (hi).
+# Copyright (C) 2021 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Priyanshu Ranjan <priyanshuranjan88@gmail.com>, 2021.
 # 
 #, fuzzy
 msgid ""
@@ -9,10 +9,10 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-21 01:56+0530\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2021-12-28 03:28+0530\n"
+"Last-Translator: Priyanshu Ranjan <priyanshuranjan88@gmail.com>\n"
+"Language-Team: hi <hi@knotters.org>\n"
+"Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -158,11 +158,11 @@ msgstr ""
 
 #: templates/account/email_confirm.html:41
 msgid "Yes, that's me"
-msgstr ""
+msgstr "हाँ वह मैं हूँ"
 
 #: templates/account/email_confirm.html:42
 msgid "No, I didn't do that"
-msgstr ""
+msgstr "नहीं, मैंने ऐसा नहीं किया"
 
 #: templates/account/email_confirm.html:47
 msgid "This email confirmation link has expired, or is invalid."
@@ -214,11 +214,11 @@ msgstr "ईमेल पता"
 #: templates/account/login.html:78 templates/people/setting/account.html:13
 #: templates/people/setting/account.html:23
 msgid "Password"
-msgstr "पासवर्ड"
+msgstr "कूटशब्द"
 
 #: templates/account/login.html:81
 msgid "Sign In"
-msgstr ""
+msgstr "दाखिल करना"
 
 #: templates/account/login.html:82
 msgid "Forgot?"
@@ -263,7 +263,7 @@ msgstr "क्या आप वाकई लॉग आउट करना चा
 #: templates/moderation/projects.html:160
 #: templates/moderation/projects.html:161
 msgid "Yes"
-msgstr ""
+msgstr "हां"
 
 #: templates/account/logout.html:38 templates/forward.html:21
 #: templates/moderation/compete.html:372 templates/moderation/compete.html:423
@@ -272,7 +272,7 @@ msgstr ""
 #: templates/moderation/projects.html:161
 #: templates/moderation/projects.html:199
 msgid "No"
-msgstr ""
+msgstr "नहीं"
 
 #: templates/account/password_change.html:10
 #: templates/account/password_change.html:16
@@ -287,12 +287,12 @@ msgstr "कूटशब्द बदलें"
 
 #: templates/account/password_change.html:27
 msgid "Current password"
-msgstr ""
+msgstr "वर्तमान कूटशब्द"
 
 #: templates/account/password_change.html:29
 #: templates/account/password_reset_from_key.html:35
 msgid "New password"
-msgstr ""
+msgstr "नया कूटशब्द"
 
 #: templates/account/password_change.html:31
 #: templates/account/password_reset_from_key.html:37
@@ -301,7 +301,7 @@ msgstr "नया कूटशब्द दोबारा"
 
 #: templates/account/password_change.html:34
 msgid "Forgot Password?"
-msgstr ""
+msgstr "कूटशब्द भूल गए?"
 
 #: templates/account/password_reset.html:10
 #: templates/account/password_reset.html:16
@@ -310,18 +310,18 @@ msgstr ""
 #: templates/account/password_reset_from_key.html:10
 #: templates/account/password_reset_from_key.html:16
 msgid "Password reset"
-msgstr "पासवर्ड रीसेट"
+msgstr "कूटशब्द रीसेट"
 
 #: templates/account/password_reset.html:23
 msgid "Password Reset"
-msgstr "पासवर्ड रीसेट"
+msgstr "कूटशब्द रीसेट"
 
 #: templates/account/password_reset.html:25
 msgid ""
 "Provide us your registered email address, and we'll send you a link to reset "
 "your password."
 msgstr ""
-"हमें अपना पंजीकृत ईमेल पता प्रदान करें, और हम आपको आपका पासवर्ड रीसेट करने के लिए एक लिंक "
+"हमें अपना पंजीकृत ईमेल पता प्रदान करें, और हम आपको आपका कूटशब्द रीसेट करने के लिए एक लिंक "
 "भेजेंगे।"
 
 #: templates/account/password_reset.html:29
@@ -338,7 +338,7 @@ msgstr "अपना मेलबॉक्स जांचें"
 
 #: templates/account/password_reset_done.html:26
 msgid "We have sent you an email with password reset link."
-msgstr "हमने आपको पासवर्ड रीसेट लिंक के साथ एक ईमेल भेजा है।"
+msgstr "हमने आपको कूटशब्द रीसेट लिंक के साथ एक ईमेल भेजा है।"
 
 #: templates/account/password_reset_done.html:27
 #: templates/account/verification_sent.html:26
@@ -358,7 +358,7 @@ msgstr "अमान्य लिंक"
 #: templates/account/password_reset_from_key.html:23
 #: templates/people/setting/account.html:24
 msgid "Change Password"
-msgstr "पासवर्ड बदलें"
+msgstr "कूटशब्द बदलें"
 
 #: templates/account/password_reset_from_key.html:27
 msgid ""
@@ -372,36 +372,36 @@ msgstr "पुन: प्रयास"
 
 #: templates/account/password_reset_from_key.html:42
 msgid "Your password is now changed."
-msgstr "आपका पासवर्ड अब बदल गया है।"
+msgstr "आपका कूटशब्द अब बदल गया है।"
 
 #: templates/account/password_reset_from_key_done.html:10
 #: templates/account/password_reset_from_key_done.html:16
 #: templates/account/password_reset_from_key_done.html:24
 msgid "Password Changed"
-msgstr "पासवर्ड बदला गया"
+msgstr "कूटशब्द बदला गया"
 
 #: templates/account/password_reset_from_key_done.html:26
 msgid "Your password is changed now."
-msgstr "आपका पासवर्ड अब बदल गया है।"
+msgstr "आपका कूटशब्द अब बदल गया है।"
 
 #: templates/account/password_set.html:10
 #: templates/account/password_set.html:16
 #: templates/account/password_set.html:23
 #: templates/account/password_set.html:30
 msgid "Set Password"
-msgstr ""
+msgstr "कूटशब्द बनाएं"
 
 #: templates/account/password_set.html:24
 msgid "Your account doesn't have a password, so you can create one below."
-msgstr "आपके खाते में पासवर्ड नहीं है, इसलिए आप एक पासवर्ड बना सकते हैं।"
+msgstr "आपके खाते में कूटशब्द नहीं है, इसलिए आप एक कूटशब्द बना सकते हैं।"
 
 #: templates/account/password_set.html:28
 msgid "New Password"
-msgstr "नया पासवर्ड"
+msgstr "नया कूटशब्द"
 
 #: templates/account/password_set.html:29
 msgid "Retype new Password"
-msgstr ""
+msgstr "नया कूटशब्द दोबारा"
 
 #: templates/account/signup.html:11 templates/account/signup.html:12
 #: templates/account/signup.html:15 templates/account/signup.html:16
@@ -647,7 +647,7 @@ msgstr "समाप्त हुआ"
 #: templates/compete/browse/recent-winners.html:35
 #: templates/compete/browse/recent-winners.html:63
 msgid "No results yet."
-msgstr ""
+msgstr "अभी तक कोई परिणाम नहीं।"
 
 #: templates/compete/browse/recent-winners.html:11
 msgid "Recent winners"
@@ -2390,7 +2390,7 @@ msgstr "ईमेल पता बदलें"
 
 #: templates/people/setting/account.html:25
 msgid "Forgot Password"
-msgstr "पासवर्ड भूल गए"
+msgstr "कूटशब्द भूल गए"
 
 #: templates/people/setting/preference.html:8
 msgid "Preference settings"
