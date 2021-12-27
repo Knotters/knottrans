@@ -22,8 +22,8 @@ jobs:
     steps:
     - name: Merge changes
       run: |
-        git pull
+        git pull origin main
     - name: Compile messages
       working-directory: ${{ secrets.MANAGE_PATH }}
       run: |
-        python3 manage.py compilemessages
+        ~/Env/knotters/bin/python3 manage.py compilemessages
