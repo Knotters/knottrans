@@ -1,14 +1,14 @@
 # Knotters translations language HINDI (hi).
-# Copyright (C) 2021 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# Priyanshu Ranjan <priyanshuranjan88@gmail.com>, 2021.
-# 
+# Copyright (C) 2022 Knotters, Org.
+# This file is distributed under the same license as the Knotters package.
+# Priyanshu Ranjan <priyanshuranjan88@gmail.com>, 2022.
+#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-12-21 01:56+0530\n"
+"POT-Creation-Date: 2022-01-26 01:24+0530\n"
 "PO-Revision-Date: 2021-12-28 03:28+0530\n"
 "Last-Translator: Priyanshu Ranjan <priyanshuranjan88@gmail.com>\n"
 "Language-Team: hi <hi@knotters.org>\n"
@@ -56,7 +56,7 @@ msgstr "खाता निष्क्रिय"
 msgid "This account is inactive."
 msgstr ""
 
-#: templates/account/email.html:10 templates/people/setting/account.html:22
+#: templates/account/email.html:10 templates/people/setting/account.html:27
 msgid "Email addresses"
 msgstr "ईमेल पते"
 
@@ -116,23 +116,23 @@ msgstr "नया ईमेल पता जोड़ें"
 msgid "Verification will be required"
 msgstr "सत्यापन की आवश्यकता होगी"
 
-#: templates/account/email.html:72
+#: templates/account/email.html:66
 msgid "New email address"
 msgstr "नया ईमेल पता"
 
-#: templates/account/email.html:74
+#: templates/account/email.html:68
 msgid "Add email"
 msgstr "ईमेल पता जोड़ें"
 
-#: templates/account/email/base_message.html:362
+#: templates/account/email/base_message.html:363
 msgid "Report a problem"
 msgstr "समस्या बताएं"
 
-#: templates/account/email/base_message.html:362 templates/index.html:342
+#: templates/account/email/base_message.html:363 templates/index.html:369
 msgid "Terms of service"
 msgstr "सेवा की शर्तें"
 
-#: templates/account/email/base_message.html:364
+#: templates/account/email/base_message.html:365
 msgid "Privacy policy"
 msgstr "गोपनीयता नीति"
 
@@ -172,10 +172,17 @@ msgstr "यह ईमेल पुष्टिकरण लिंक समा�
 msgid "Resend Email"
 msgstr "ईमेल दुबारा भेजें"
 
+#: templates/account/index.html:12 templates/account/index.html:13
+#: templates/account/index.html:16 templates/account/index.html:17
+#: templates/account/index.html:19 templates/account/index.html:24
+#: templates/people/profile.html:185
+msgid "Account"
+msgstr "अकाउंट"
+
 #: templates/account/login.html:12 templates/account/login.html:13
 #: templates/account/login.html:16 templates/account/login.html:17
 #: templates/account/login.html:19 templates/account/login.html:24
-#: templates/index.html:134 templates/people/profile.html:42
+#: templates/index.html:147 templates/people/profile.html:48
 msgid "Login"
 msgstr "लॉग इन करें"
 
@@ -183,73 +190,68 @@ msgstr "लॉग इन करें"
 msgid "Let's solve our problems, together."
 msgstr "आओ मिलकर हमारी समस्याओं का समाधान करें"
 
-#: templates/account/login.html:43 templates/account/signup.html:42
-msgid "Continue via Google"
+#: templates/account/login.html:48 templates/account/signup.html:48
+#, fuzzy
+#| msgid "Continue via Google"
+msgid "Continue via"
 msgstr "Google के माध्यम से जारी रखें"
 
-#: templates/account/login.html:50 templates/account/signup.html:49
-msgid "Continue via Github"
-msgstr "Github के माध्यम से जारी रखें"
-
-#: templates/account/login.html:57 templates/account/signup.html:56
-msgid "Continue via Discord"
-msgstr "Discord के माध्यम से जारी रखें"
-
-#: templates/account/login.html:64
+#: templates/account/login.html:59
 msgid "Create an account"
 msgstr "खाता बनाएं"
 
-#: templates/account/login.html:73
+#: templates/account/login.html:68
 msgid "or use your"
 msgstr "या उपयोग करें अपना"
 
-#: templates/account/login.html:73 templates/account/signup.html:69
+#: templates/account/login.html:68 templates/account/signup.html:65
 msgid "account"
 msgstr "खाता"
 
-#: templates/account/login.html:76 templates/people/setting/account.html:11
+#: templates/account/login.html:71 templates/people/setting/account.html:11
 msgid "Email address"
 msgstr "ईमेल पता"
 
-#: templates/account/login.html:78 templates/people/setting/account.html:13
-#: templates/people/setting/account.html:23
+#: templates/account/login.html:73 templates/people/setting/account.html:13
+#: templates/people/setting/account.html:28
 msgid "Password"
 msgstr "कूटशब्द"
 
-#: templates/account/login.html:81
+#: templates/account/login.html:76
 msgid "Sign In"
 msgstr "दाखिल करना"
 
-#: templates/account/login.html:82
+#: templates/account/login.html:77
 msgid "Forgot?"
 msgstr "भूल गए?"
 
-#: templates/account/login.html:93 templates/account/signup.html:85
+#: templates/account/login.html:88 templates/account/signup.html:81
 msgid "By continuing via an identity on our platform"
 msgstr "हमारे मंच पर एक पहचान के माध्यम से जारी रखते हुए"
 
-#: templates/account/login.html:93 templates/account/signup.html:85
+#: templates/account/login.html:88 templates/account/signup.html:81
 msgid "you agree to our"
 msgstr "आप मानते हैं हमारी"
 
-#: templates/account/login.html:93 templates/account/signup.html:85
-#: templates/docs/competitionguidelines.html:123
+#: templates/account/login.html:88 templates/account/signup.html:81
+#: templates/docs/competitionguidelines.html:124
 msgid "terms of service"
 msgstr "सेवा की शर्तें"
 
-#: templates/account/login.html:93 templates/account/signup.html:85
-#: templates/compete/profile.html:174
+#: templates/account/login.html:88 templates/account/signup.html:81
+#: templates/compete/profile.html:182
 msgid "and"
 msgstr "और"
 
-#: templates/account/login.html:93 templates/account/signup.html:85
+#: templates/account/login.html:88 templates/account/signup.html:81
 msgid "privacy policy"
 msgstr "गोपनीयता नीति"
 
 #: templates/account/logout.html:10 templates/account/logout.html:13
 #: templates/account/logout.html:14 templates/account/logout.html:17
 #: templates/account/logout.html:18 templates/account/logout.html:24
-#: templates/account/logout.html:37 templates/people/profile.html:37
+#: templates/account/logout.html:37 templates/auth2/index.html:23
+#: templates/people/profile.html:43
 msgid "Logout"
 msgstr "लॉग आउट"
 
@@ -260,17 +262,12 @@ msgstr "क्या आप वाकई लॉग आउट करना चा
 #: templates/account/logout.html:37 templates/forward.html:20
 #: templates/moderation/compete.html:372 templates/moderation/compete.html:423
 #: templates/moderation/compete.html:449 templates/moderation/compete.html:468
-#: templates/moderation/projects.html:160
-#: templates/moderation/projects.html:161
 msgid "Yes"
 msgstr "हां"
 
 #: templates/account/logout.html:38 templates/forward.html:21
 #: templates/moderation/compete.html:372 templates/moderation/compete.html:423
 #: templates/moderation/compete.html:449 templates/moderation/compete.html:468
-#: templates/moderation/projects.html:160
-#: templates/moderation/projects.html:161
-#: templates/moderation/projects.html:199
 msgid "No"
 msgstr "नहीं"
 
@@ -324,7 +321,7 @@ msgstr ""
 "हमें अपना पंजीकृत ईमेल पता प्रदान करें, और हम आपको आपका कूटशब्द रीसेट करने के लिए एक लिंक "
 "भेजेंगे।"
 
-#: templates/account/password_reset.html:29
+#: templates/account/password_reset.html:29 templates/strings.js:77
 msgid "Your email address"
 msgstr "आपका ईमेल पता"
 
@@ -347,7 +344,7 @@ msgstr "अपने स्पैम फ़ोल्डर की भी जा�
 
 #: templates/account/password_reset_done.html:29
 #: templates/account/password_reset_from_key_done.html:28
-#: templates/account/verification_sent.html:29
+#: templates/account/verification_sent.html:29 templates/strings.js:8
 msgid "Okay"
 msgstr "ठीक है"
 
@@ -356,7 +353,7 @@ msgid "Invaild link"
 msgstr "अमान्य लिंक"
 
 #: templates/account/password_reset_from_key.html:23
-#: templates/people/setting/account.html:24
+#: templates/people/setting/account.html:29
 msgid "Change Password"
 msgstr "कूटशब्द बदलें"
 
@@ -367,6 +364,7 @@ msgid ""
 msgstr ""
 
 #: templates/account/password_reset_from_key.html:29 templates/offline.html:26
+#: templates/strings.js:63
 msgid "Retry"
 msgstr "पुन: प्रयास"
 
@@ -413,19 +411,19 @@ msgstr "हमसे जुड़ें"
 msgid "Be a part of a community that's always there for you."
 msgstr "उस समुदाय का हिस्सा बनें जो हमेशा आपके लिए है।"
 
-#: templates/account/signup.html:60
+#: templates/account/signup.html:56
 msgid "Already a member?"
 msgstr "पहले से ही सदस्य हैं?"
 
-#: templates/account/signup.html:62
+#: templates/account/signup.html:58
 msgid "Existing Login"
 msgstr "मौजूदा लॉगिन"
 
-#: templates/account/signup.html:69
+#: templates/account/signup.html:65
 msgid "or create a"
 msgstr "या बनाएं एक"
 
-#: templates/account/signup.html:75
+#: templates/account/signup.html:71
 msgid "Create account"
 msgstr "अकाउंट बनाएं"
 
@@ -514,7 +512,8 @@ msgstr "यदि प्रमाणक ऐप पहुंच योग्य �
 msgid "Two factor code"
 msgstr "दो-चरणीय कोड"
 
-#: templates/allauth_2fa/authenticate.html:22 templates/docs/doc.html:38
+#: templates/allauth_2fa/authenticate.html:22 templates/docs/doc.html:40
+#: templates/strings.js:74
 msgid "or"
 msgstr "या"
 
@@ -572,7 +571,7 @@ msgid "recovery tokens"
 msgstr "पुनर्प्राप्ति टोकन"
 
 #: templates/allauth_2fa/backup_tokens.html:47
-#: templates/allauth_2fa/remove.html:13 templates/allauth_2fa/remove.html:21
+#: templates/allauth_2fa/remove.html:13 templates/allauth_2fa/remove.html:22
 msgid "Disable"
 msgstr "अक्षम करें"
 
@@ -588,7 +587,7 @@ msgstr "दो-चरणीय प्रमाणीकरण"
 msgid "on your account"
 msgstr "आपके खाते पर"
 
-#: templates/allauth_2fa/remove.html:16
+#: templates/allauth_2fa/remove.html:17
 msgid "This will potentially weaken your account security."
 msgstr "यह संभावित रूप से आपके खाते की सुरक्षा को कमजोर करेगा।"
 
@@ -630,6 +629,8 @@ msgstr "प्रतियोगिता"
 
 #: templates/compete/browse/latest-competitions.html:25
 #: templates/compete/browse/latest-competitions.html:55
+#: templates/compete/browse/search.html:24
+#: templates/compete/browse/search.html:54
 #, fuzzy
 #| msgid "Begins at"
 msgid "Begin at"
@@ -637,21 +638,47 @@ msgstr "शुरू होगा"
 
 #: templates/compete/browse/latest-competitions.html:26
 #: templates/compete/browse/latest-competitions.html:56
+#: templates/compete/browse/search.html:25
+#: templates/compete/browse/search.html:55
 #, fuzzy
 #| msgid "Ended at"
 msgid "End at"
 msgstr "समाप्त हुआ"
 
 #: templates/compete/browse/latest-competitions.html:36
-#: templates/compete/browse/latest-competitions.html:67
 #: templates/compete/browse/recent-winners.html:35
 #: templates/compete/browse/recent-winners.html:63
 msgid "No results yet."
 msgstr "अभी तक कोई परिणाम नहीं।"
 
+#: templates/compete/browse/latest-competitions.html:67
+#, fuzzy
+#| msgid "No active competitions."
+msgid "No latest competitions."
+msgstr "कोई सक्रिय प्रतियोगिता नहीं।"
+
 #: templates/compete/browse/recent-winners.html:11
 msgid "Recent winners"
 msgstr "हाल के विजेता"
+
+#: templates/compete/browse/search.html:10
+#: templates/people/browse/search.html:10
+#: templates/projects/browse/search.html:10
+#: templates/projects/license/search.html:10
+#, python-format
+msgid "Results for '%(query)s'"
+msgstr "'%(query)s' के लिए परिणाम"
+
+#: templates/compete/browse/search.html:35
+#: templates/compete/browse/search.html:66
+#: templates/people/browse/search.html:34
+#: templates/people/browse/search.html:62
+#: templates/projects/browse/search.html:31
+#: templates/projects/browse/search.html:58
+#: templates/projects/license/search.html:25
+#, python-format
+msgid "No results for '%(query)s'"
+msgstr ""
 
 #: templates/compete/certificate/certificate-app.html:37
 #, python-format
@@ -663,62 +690,62 @@ msgstr ""
 "%(competetitle)s में ।"
 
 #: templates/compete/certificate/certificate-app.html:46
-#: templates/compete/certificate/certificate.html:44
+#: templates/compete/certificate/certificate.html:39
 msgid "The certificate is not yet available."
 msgstr "प्रमाण पत्र अभी उपलब्ध नहीं है।"
 
 #: templates/compete/certificate/certificate-app.html:46
-#: templates/compete/certificate/certificate.html:44
+#: templates/compete/certificate/certificate.html:39
 msgid "It'll be available here soon."
 msgstr "यह जल्द ही यहां उपलब्ध होगा।"
 
 #: templates/compete/certificate/certificate-app.html:47
-#: templates/compete/certificate/certificate.html:45
+#: templates/compete/certificate/certificate.html:40
 msgid ""
 "Regardless of the availability of certificate, this page is equivalent to "
 "the said certification."
 msgstr "प्रमाण पत्र की उपलब्धता के बावजूद, यह पृष्ठ उक्त प्रमाणीकरण के बराबर है।"
 
 #: templates/compete/certificate/certificate-app.html:54
-#: templates/compete/certificate/certificate.html:54
+#: templates/compete/certificate/certificate.html:48
 msgid "Certificate Details"
 msgstr "प्रमाणपत्र विवरण"
 
 #: templates/compete/certificate/certificate-app.html:55
-#: templates/compete/certificate/certificate.html:55
+#: templates/compete/certificate/certificate.html:49
 msgid "Name"
 msgstr "नाम"
 
 #: templates/compete/certificate/certificate-app.html:56
-#: templates/compete/certificate/certificate.html:56
+#: templates/compete/certificate/certificate.html:50
 msgid "Issuing Organization"
 msgstr "जारी करने वाला संगठन"
 
 #: templates/compete/certificate/certificate-app.html:57
-#: templates/compete/certificate/certificate.html:57
+#: templates/compete/certificate/certificate.html:51
 msgid "Issue Date"
 msgstr "जारी करने का दिन"
 
 #: templates/compete/certificate/certificate-app.html:58
-#: templates/compete/certificate/certificate.html:58
+#: templates/compete/certificate/certificate.html:52
 msgid "Expiration Date"
 msgstr "समाप्ति तिथि"
 
 #: templates/compete/certificate/certificate-app.html:58
-#: templates/compete/certificate/certificate.html:58
+#: templates/compete/certificate/certificate.html:52
 msgid "Does not expire"
 msgstr "समाप्त नहीं होती है"
 
 #: templates/compete/certificate/certificate-app.html:60
 #: templates/compete/certificate/certificate-app.html:62
-#: templates/compete/certificate/certificate.html:60
-#: templates/compete/certificate/certificate.html:62
+#: templates/compete/certificate/certificate.html:54
+#: templates/compete/certificate/certificate.html:56
 msgid "Credential ID"
 msgstr "क्रेडेंशियल आईडी"
 
 #: templates/compete/certificate/certificate-app.html:60
 #: templates/compete/certificate/certificate-app.html:64
-#: templates/compete/certificate/certificate.html:60
+#: templates/compete/certificate/certificate.html:54
 msgid "Click to copy"
 msgstr "कॉपी करने के लिए क्लिक करें"
 
@@ -727,34 +754,34 @@ msgid "Will be available soon."
 msgstr "जल्द ही उपलब्ध होगा।"
 
 #: templates/compete/certificate/certificate-app.html:64
-#: templates/compete/certificate/certificate.html:64
+#: templates/compete/certificate/certificate.html:58
 msgid "Credential URL"
 msgstr "क्रेडेंशियल यू.आर.एल"
 
 #: templates/compete/certificate/certificate-app.html:64
-#: templates/compete/certificate/certificate.html:64
+#: templates/compete/certificate/certificate.html:58
 msgid "Copy to clipboard"
 msgstr "क्लिपबोर्ड पर कॉपी करें"
 
 #: templates/compete/certificate/certificate-app.html:70
-#: templates/compete/certificate/certificate.html:71
+#: templates/compete/certificate/certificate.html:65
 msgid "Download certificate"
 msgstr "प्रमाणपत्र डाउनलोड करें"
 
 #: templates/compete/certificate/certificate-app.html:73
-#: templates/compete/certificate/certificate.html:74
-#: templates/compete/profile.html:68 templates/index.html:355
+#: templates/compete/certificate/certificate.html:68
+#: templates/compete/profile.html:71 templates/index.html:381
 msgid "Share"
 msgstr "साझा करें"
 
 #: templates/compete/certificate/certificate-app.html:79
-#: templates/compete/certificate/certificate.html:80
-#: templates/compete/profile.html:72
+#: templates/compete/certificate/certificate.html:74
+#: templates/compete/profile.html:75
 msgid "In association with"
 msgstr "सहयोगकर्ता"
 
 #: templates/compete/certificate/certificate-app.html:80
-#: templates/compete/certificate/certificate.html:81
+#: templates/compete/certificate/certificate.html:75
 msgid "Association"
 msgstr "सहयोग"
 
@@ -769,7 +796,7 @@ msgstr "%(APPNAME)s. पर प्राप्त प्रतियोगित
 #: templates/compete/certificate/index.html:12
 #: templates/compete/certificate/index.html:15
 #: templates/compete/certificate/index.html:18
-#: templates/compete/certificate/index.html:19 templates/compete/index.html:29
+#: templates/compete/certificate/index.html:19 templates/compete/index.html:32
 msgid "Certification"
 msgstr "प्रमाणीकरण"
 
@@ -847,66 +874,65 @@ msgstr "हमसे संपर्क करें"
 
 #: templates/compete/index.html:11 templates/compete/index.html:13
 #: templates/compete/index.html:16 templates/compete/index.html:18
-#: templates/compete/index.html:20 templates/compete/index.html:40
-#: templates/compete/index.html:41 templates/index.html:122
-#: templates/index.html:255 templates/people/profile.html:159
+#: templates/compete/index.html:22 templates/compete/index.html:40
+#: templates/compete/index.html:41 templates/index.html:132
+#: templates/index.html:278 templates/people/profile.html:165
 msgid "Competitions"
 msgstr "प्रतियोगिता"
 
-#: templates/compete/index.html:31
-msgid "Create competition"
-msgstr ""
-
-#: templates/compete/index.html:31 templates/people/profile/projects.html:60
-#: templates/projects/profile/0.html:246
-msgid "Create"
-msgstr ""
-
-#: templates/compete/index.html:52 templates/people/index.html:44
-#: templates/projects/index.html:57
+#: templates/compete/index.html:52 templates/people/index.html:53
+#: templates/projects/index.html:58
 msgid "Learn More"
 msgstr "और जानें"
 
-#: templates/compete/index.html:56 templates/index.html:194
-#: templates/people/index.html:49 templates/projects/index.html:61
+#: templates/compete/index.html:56 templates/index.html:211
+#: templates/people/index.html:58 templates/projects/index.html:62
 msgid "I'm ready"
 msgstr "मैं तैयार हूं"
 
 #: templates/compete/index.html:66
+msgid "Search competitions as status:history, topic:Design, or anything"
+msgstr ""
+
+#: templates/compete/index.html:80
 msgid "Active"
 msgstr "सक्रिय"
 
-#: templates/compete/index.html:69 templates/compete/profile.html:123
+#: templates/compete/index.html:83 templates/compete/profile.html:131
 msgid "Upcoming"
 msgstr "आगामी"
 
-#: templates/compete/index.html:72
+#: templates/compete/index.html:86
 msgid "History"
 msgstr "इतिहास"
 
+#: templates/compete/index.html:105
+#, fuzzy
+#| msgid "Type something to search projects"
+msgid "Type something to search competitions"
+msgstr "प्रोजेक्ट खोजने के लिए टाइप करें"
+
 #: templates/compete/index/active.html:17
-#: templates/compete/index/upcoming.html:17 templates/compete/profile.html:121
-#: templates/index.html:165
+#: templates/compete/index/upcoming.html:17 templates/compete/profile.html:129
+#: templates/index.html:178
 msgid "Begins at"
 msgstr "शुरू होगा"
 
 #: templates/compete/index/active.html:18
-#: templates/compete/index/upcoming.html:18 templates/index.html:166
+#: templates/compete/index/upcoming.html:18 templates/index.html:179
 msgid "Ends at"
 msgstr "समाप्त होगा"
 
 #: templates/compete/index/active.html:22
 #: templates/compete/index/history.html:23
 #: templates/compete/index/upcoming.html:22
-#: templates/compete/profile/result.html:84 templates/index.html:170
+#: templates/compete/profile/result.html:84 templates/index.html:183
 #: templates/people/profile/competitions.html:15
-#: templates/people/profile/mentorship.html:72
-#: templates/people/profile/moderation.html:25
+#: templates/people/profile/mentorship.html:74
 #: templates/people/profile/moderation.html:29
 #: templates/people/profile/moderation.html:33
-#: templates/people/profile/moderation.html:100
-#: templates/people/profile/projects.html:101
-#: templates/projects/license/index.html:70
+#: templates/people/profile/projects.html:104
+#: templates/projects/license/index.html:73
 #: templates/projects/license/search.html:18
 msgid "View"
 msgstr "दिखाना"
@@ -931,80 +957,114 @@ msgstr "कोई इतिहास नहीं। चलो इतिहा�
 msgid "No upcoming competitions."
 msgstr "कोई आगामी प्रतियोगिता नहीं।"
 
-#: templates/compete/profile.html:79
+#: templates/compete/invitation.html:12
+msgid "You have declined this invitation for participation with"
+msgstr "आपने के साथ भागीदारी के लिए इस आमंत्रण को अस्वीकार कर दिया है"
+
+#: templates/compete/invitation.html:18 templates/compete/invitation.html:30
+msgid "in the competition"
+msgstr ""
+
+#: templates/compete/invitation.html:21
+msgid "Acknowledged"
+msgstr "स्वीकार किया"
+
+#: templates/compete/invitation.html:24
+msgid "You have accepted this invitation for participation with"
+msgstr "आपने के साथ भागीदारी के लिए इस आमंत्रण को स्वीकार कर लिया है"
+
+#: templates/compete/invitation.html:33
+msgid "Let's go"
+msgstr "चलिए चलते हैं"
+
+#: templates/compete/invitation.html:36
+msgid "You have been invited to participate in the competition"
+msgstr "आपको प्रतियोगिता में भाग लेने के लिए आमंत्रित किया गया है"
+
+#: templates/compete/invitation.html:38
+msgid "together with"
+msgstr "के साथ"
+
+#: templates/compete/invitation.html:44
+msgid "on the team."
+msgstr "टीम में"
+
+#: templates/compete/profile.html:87
 #, fuzzy
 #| msgid "To be eligible for prizes"
 msgid "To be eligible for cash prizes here"
 msgstr "पुरस्कार के पात्र होने के लिए"
 
-#: templates/compete/profile.html:89
+#: templates/compete/profile.html:97
 msgid "Do not pay if already paid."
 msgstr ""
 
-#: templates/compete/profile.html:109
-msgid "Remaining"
+#: templates/compete/profile.html:117
+#, fuzzy
+#| msgid "Remaining"
+msgid "Remaining time"
 msgstr "शेष"
 
-#: templates/compete/profile.html:111
+#: templates/compete/profile.html:119
 msgid "To submit"
 msgstr "जमा करने के लिए"
 
-#: templates/compete/profile.html:115
+#: templates/compete/profile.html:123
 msgid "Competition"
 msgstr "प्रतियोगिता"
 
-#: templates/compete/profile.html:115
+#: templates/compete/profile.html:123
 msgid "ended"
 msgstr "समाप्त"
 
-#: templates/compete/profile.html:117
+#: templates/compete/profile.html:125
 msgid "Archived"
 msgstr "संग्रहीत"
 
-#: templates/compete/profile.html:117
+#: templates/compete/profile.html:125
 msgid "Results Awaited"
 msgstr "परिणाम प्रतीक्षित"
 
-#: templates/compete/profile.html:173
+#: templates/compete/profile.html:181
 msgid "Stay Tuned!"
 msgstr "बने रहें!"
 
-#: templates/compete/profile.html:174
+#: templates/compete/profile.html:182
 #, fuzzy
 #| msgid "Full details will be shown, once the competition begins."
 msgid "Full details will be shown"
 msgstr "प्रतियोगिता शुरू होने के बाद पूरा विवरण दिखाया जाएगा।"
 
-#: templates/compete/profile.html:174
+#: templates/compete/profile.html:182
 #, fuzzy
 #| msgid "Login to Participate"
 msgid "you'll be able to participate"
 msgstr "भाग लेने के लिए लॉगिन करें"
 
-#: templates/compete/profile.html:174
+#: templates/compete/profile.html:182
 #, fuzzy
 #| msgid "No active competitions."
 msgid "once the competition begins."
 msgstr "कोई सक्रिय प्रतियोगिता नहीं।"
 
-#: templates/compete/profile.html:175
+#: templates/compete/profile.html:183
 msgid "competition guidelines"
 msgstr "प्रतियोगिता दिशानिर्देश"
 
-#: templates/compete/profile.html:186 templates/people/profile.html:149
+#: templates/compete/profile.html:194 templates/people/profile.html:155
 msgid "Overview"
 msgstr "अवलोकन"
 
-#: templates/compete/profile.html:188 templates/docs/index.html:35
+#: templates/compete/profile.html:196 templates/docs/index.html:42
 msgid "Guidelines"
 msgstr "दिशा-निर्देश"
 
-#: templates/compete/profile.html:190 templates/compete/profile/result.html:47
+#: templates/compete/profile.html:198 templates/compete/profile/result.html:47
 #: templates/compete/profile/submission.html:18
 msgid "Submission"
 msgstr "प्रस्तुतीकरण"
 
-#: templates/compete/profile.html:193
+#: templates/compete/profile.html:201
 msgid "Results"
 msgstr "परिणाम"
 
@@ -1071,20 +1131,20 @@ msgstr "कोई आगामी प्रतियोगिता नहीं
 msgid "Rank prizes"
 msgstr ""
 
-#: templates/compete/profile/overview.html:33
+#: templates/compete/profile/overview.html:42
 msgid "All participants will receive"
 msgstr "सभी प्रतिभागियों को प्राप्त होगा"
 
-#: templates/compete/profile/overview.html:33
+#: templates/compete/profile/overview.html:42
 msgid "e-certificates"
 msgstr "ई-प्रमाणपत्र"
 
-#: templates/compete/profile/overview.html:33
+#: templates/compete/profile/overview.html:42
 #: templates/moderation/compete.html:107
 msgid "."
 msgstr "।"
 
-#: templates/compete/profile/overview.html:34
+#: templates/compete/profile/overview.html:43
 msgid ""
 "The points obtained from this competition can be claimed as XP for your "
 "profile."
@@ -1092,15 +1152,15 @@ msgstr ""
 "इस प्रतियोगिता से प्राप्त अंकों को आपकी प्रोफ़ाइल के लिए XP के रूप में दावा किया जा सकता "
 "है।"
 
-#: templates/compete/profile/overview.html:37
+#: templates/compete/profile/overview.html:46
 #, fuzzy
 #| msgid "Association"
 msgid "Description"
 msgstr "सहयोग"
 
 #: templates/compete/profile/result.html:12
-#: templates/people/profile/moderation.html:51
-#: templates/people/profile/moderation.html:83
+#: templates/people/profile/moderation.html:57
+#: templates/people/profile/moderation.html:94
 msgid "Private to you"
 msgstr "आपके लिए निजी"
 
@@ -1220,26 +1280,30 @@ msgstr "इससे पहले कि आप भाग ले सकें"
 msgid "Competition is a thrill way to grow."
 msgstr "प्रतिस्पर्धा बढ़ने का एक रोमांचक तरीका है"
 
-#: templates/compete/profile/submission.html:107
+#: templates/compete/profile/submission.html:117
+#: templates/compete/profile/submission.html:130
 msgid "Participate Independently"
 msgstr "स्वतंत्र रूप से भाग लें"
 
-#: templates/compete/profile/submission.html:109
+#: templates/compete/profile/submission.html:119
+#: templates/compete/profile/submission.html:132
 msgid ""
 "If you have been invited, then the above button will cancel your pending "
 "invitations."
 msgstr ""
 "यदि आपको आमंत्रित किया गया है, तो उपरोक्त बटन आपके लंबित आमंत्रणों को रद्द कर देगा।"
 
-#: templates/compete/profile/submission.html:113
+#: templates/compete/profile/submission.html:123
+#: templates/compete/profile/submission.html:136
 msgid "You have a pending invitation for participation in this competition"
 msgstr "इस प्रतियोगिता में भाग लेने के लिए आपके पास एक लंबित आमंत्रण है"
 
-#: templates/compete/profile/submission.html:114
+#: templates/compete/profile/submission.html:124
+#: templates/compete/profile/submission.html:137
 msgid "View invitation"
 msgstr "आमंत्रण देखें"
 
-#: templates/compete/profile/submission.html:117
+#: templates/compete/profile/submission.html:141
 msgid "Login to Participate"
 msgstr "भाग लेने के लिए लॉगिन करें"
 
@@ -1256,7 +1320,7 @@ msgid "Sample"
 msgstr "नमूना"
 
 #: templates/docs/communityguidelines.html:9
-#: templates/docs/communityguidelines.html:19 templates/docs/index.html:39
+#: templates/docs/communityguidelines.html:19 templates/docs/index.html:46
 msgid "Community Guidelines"
 msgstr "समुदाय दिशानिर्देश"
 
@@ -1268,12 +1332,16 @@ msgstr ""
 "एक दूसरे की बेहतरी के लिए सृजन और योगदान करने की स्वतंत्रता हमारे दिशानिर्देशों का केंद्रीय "
 "पहलू है।"
 
+#: templates/docs/communityguidelines.html:24
+msgid "For everyone"
+msgstr ""
+
 #: templates/docs/competitionguidelines.html:10
 #: templates/docs/competitionguidelines.html:12
 #: templates/docs/competitionguidelines.html:15
 #: templates/docs/competitionguidelines.html:17
 #: templates/docs/competitionguidelines.html:19
-#: templates/docs/competitionguidelines.html:30 templates/docs/index.html:53
+#: templates/docs/competitionguidelines.html:30 templates/docs/index.html:60
 msgid "Competition Guidelines"
 msgstr "प्रतियोगिता दिशानिर्देश"
 
@@ -1286,16 +1354,16 @@ msgstr "किसी प्रतियोगिता में भाग ल�
 msgid "Before participating in a competition, go through the following."
 msgstr "किसी प्रतियोगिता में भाग लेने से पहले, हमारे दिशा-निर्देशों को पढ़ें।"
 
-#: templates/docs/competitionguidelines.html:34
+#: templates/docs/competitionguidelines.html:35
 msgid "For participants"
 msgstr "प्रतिभागियों के लिए"
 
-#: templates/docs/competitionguidelines.html:82
-#: templates/docs/moderationguidelines.html:57
+#: templates/docs/competitionguidelines.html:83
+#: templates/docs/moderationguidelines.html:58
 msgid "For moderators"
 msgstr "मॉडरेटर के लिए"
 
-#: templates/docs/competitionguidelines.html:104
+#: templates/docs/competitionguidelines.html:105
 msgid "For judges"
 msgstr "न्यायाधीशों के लिए"
 
@@ -1307,36 +1375,36 @@ msgstr "प्रभावी"
 msgid "Last updated on"
 msgstr "अंतिम अद्यतन"
 
-#: templates/docs/doc.html:38
+#: templates/docs/doc.html:40
 msgid "Questions"
 msgstr "प्रशन"
 
-#: templates/docs/doc.html:38
+#: templates/docs/doc.html:40
 msgid "Concerns"
 msgstr "कोई चिंता"
 
-#: templates/docs/doc.html:40
+#: templates/docs/doc.html:42
 msgid "If you have any questions or concerns regarding this"
 msgstr "यदि इस संबंध में आपका कोई प्रश्न या चिंता है"
 
-#: templates/docs/doc.html:40
+#: templates/docs/doc.html:42
 msgid "We will make every effort to resolve your concerns."
 msgstr "हम आपकी चिंताओं को दूर करने का हर संभव प्रयास करेंगे।"
 
 #: templates/docs/index.html:11 templates/docs/index.html:13
 #: templates/docs/index.html:16 templates/docs/index.html:18
-#: templates/docs/index.html:20 templates/docs/index.html:22
-#: templates/docs/index.html:31 templates/docs/index.html:67
-#: templates/index.html:341
+#: templates/docs/index.html:20 templates/docs/index.html:29
+#: templates/docs/index.html:38 templates/docs/index.html:74
+#: templates/index.html:368
 msgid "Docs"
 msgstr "दस्तावेज़"
 
 #: templates/docs/index.html:12 templates/docs/index.html:17
-#: templates/docs/index.html:32
+#: templates/docs/index.html:39
 msgid "Refer these in case of any legal or moral doubts."
 msgstr "किसी भी कानूनी या नैतिक संदेह के मामले में इन्हें देखें।"
 
-#: templates/docs/index.html:46 templates/docs/moderationguidelines.html:10
+#: templates/docs/index.html:53 templates/docs/moderationguidelines.html:10
 #: templates/docs/moderationguidelines.html:12
 #: templates/docs/moderationguidelines.html:15
 #: templates/docs/moderationguidelines.html:17
@@ -1347,13 +1415,13 @@ msgstr "किसी भी कानूनी या नैतिक संद�
 msgid "Project Guidelines"
 msgstr "परियोजना हटाई गई"
 
-#: templates/docs/index.html:60
+#: templates/docs/index.html:67
 #, fuzzy
 #| msgid "Moderation Guidelines"
 msgid "Branding Guidelines"
 msgstr "मॉडरेशन दिशानिर्देश"
 
-#: templates/docs/index.html:67
+#: templates/docs/index.html:74
 msgid "Legal"
 msgstr "नैतिक"
 
@@ -1405,72 +1473,87 @@ msgstr "मुझे जाने दो"
 msgid "take me back"
 msgstr ""
 
-#: templates/index.html:29 templates/index.html:31 templates/index.html:70
+#: templates/index.html:28 templates/index.html:30 templates/index.html:76
 msgid "Home"
 msgstr ""
 
-#: templates/index.html:97
+#: templates/index.html:107
 msgid "Click here to learn more."
 msgstr "और जानने के लिए यहां क्लिक करे"
 
-#: templates/index.html:123 templates/index.html:224
-#: templates/people/profile.html:154 templates/projects/index.html:28
-#: templates/projects/index.html:45
+#: templates/index.html:133 templates/index.html:247
+#: templates/people/profile.html:160 templates/projects/index.html:29
+#: templates/projects/index.html:46
 msgid "Projects"
 msgstr "परियोजनाएं"
 
-#: templates/index.html:124 templates/index.html:359
-#: templates/people/index.html:20 templates/people/index.html:25
-#: templates/people/index.html:33
+#: templates/index.html:134 templates/index.html:385
+#: templates/people/index.html:11 templates/people/index.html:13
+#: templates/people/index.html:16 templates/people/index.html:18
+#: templates/people/index.html:22 templates/people/index.html:28
+#: templates/people/index.html:42
 msgid "Community"
 msgstr "समुदाय"
 
-#: templates/index.html:137 templates/people/profile.html:45
+#: templates/index.html:136 templates/management/index.html:18
+#, fuzzy
+#| msgid "Manage"
+msgid "Management"
+msgstr "प्रबंधित करें"
+
+#: templates/index.html:150 templates/management/invitation.html:25
+#: templates/people/profile.html:51
 msgid "Join"
 msgstr "शामिल हों"
 
-#: templates/index.html:186 templates/index.html:187
+#: templates/index.html:203 templates/index.html:204
 #, python-format
 msgid "Welcome to %(APPNAME)s"
 msgstr "%(APPNAME)s में आपका स्वागत है"
 
-#: templates/index.html:189
+#: templates/index.html:206
 msgid "Ready to takeoff? Virtually ofcourse."
 msgstr "वस्तुतः उड़ान के लिए तैयार?"
 
-#: templates/index.html:192
+#: templates/index.html:209
 msgid "Get ready"
 msgstr "तैयार करें"
 
-#: templates/index.html:219 templates/index.html:220
+#: templates/index.html:214
+#, fuzzy
+#| msgid "Sign In"
+msgid "Sign up"
+msgstr "दाखिल करना"
+
+#: templates/index.html:242 templates/index.html:243
 #, fuzzy
 #| msgid "New project"
 msgid "Admire projects"
 msgstr "नई परियोजना"
 
-#: templates/index.html:222
+#: templates/index.html:245
 msgid "Snapshots are waiting for you to admire some projects for them."
 msgstr ""
 
-#: templates/index.html:225 templates/index.html:256
+#: templates/index.html:248 templates/index.html:279 templates/strings.js:54
 #, fuzzy
 #| msgid "report it"
 msgid "Got it!"
 msgstr "रिपोर्ट करें"
 
-#: templates/index.html:250 templates/index.html:251
+#: templates/index.html:273 templates/index.html:274
 #, fuzzy
 #| msgid "Login to Participate"
 msgid "Participate"
 msgstr "भाग लेने के लिए लॉगिन करें"
 
-#: templates/index.html:253
+#: templates/index.html:276
 msgid ""
 "We conduct and host competitions for you to level up. You participate in "
 "them to contribute."
 msgstr ""
 
-#: templates/index.html:279
+#: templates/index.html:302
 #, python-format
 msgid ""
 "Starting a project with %(APPNAME)s gives your idea a certain amount of "
@@ -1478,72 +1561,81 @@ msgid ""
 "to your project to-be.<br/>We call that family %(APPNAME)s Community."
 msgstr ""
 
-#: templates/index.html:281
+#: templates/index.html:304
 msgid "Read philosophy"
 msgstr ""
 
-#: templates/index.html:282
+#: templates/index.html:305
 msgid "Understood"
 msgstr ""
 
-#: templates/index.html:300 templates/people/index.html:94
-#: templates/projects/index.html:88
+#: templates/index.html:323 templates/people/index.html:106
+#: templates/projects/index.html:91
 msgid "That's all here for now."
 msgstr "अभी के लिए बस इतना ही।"
 
-#: templates/index.html:301 templates/people/index.html:95
-#: templates/projects/index.html:89
+#: templates/index.html:324 templates/people/index.html:107
+#: templates/projects/index.html:92
 msgid "Browse other things meanwhile."
 msgstr "इस बीच अन्य चीजें ब्राउज़ करें।"
 
-#: templates/index.html:323 templates/index.html:382
+#: templates/index.html:348 templates/index.html:409
 msgid "Copyright"
 msgstr "कॉपीराइट"
 
-#: templates/index.html:338
+#: templates/index.html:365
 msgid "For the press"
 msgstr ""
 
-#: templates/index.html:339
+#: templates/index.html:366 templates/strings.js:62
 msgid "Troubleshooting"
 msgstr ""
 
-#: templates/index.html:340 templates/moderation/projects.html:41
-#: templates/moderation/projects.html:55 templates/moderation/projects.html:178
-#: templates/moderation/projects.html:199 templates/people/profile.html:140
-#: templates/projects/profile/0.html:94
+#: templates/index.html:367 templates/moderation/core-project.html:47
+#: templates/moderation/core-project.html:60
+#: templates/moderation/projects.html:41 templates/moderation/projects.html:55
+#: templates/people/profile.html:146 templates/projects/profile/0.html:98
+#: templates/projects/profile/2.html:97 templates/strings.js:71
 msgid "Report"
 msgstr "रिपोर्ट"
 
-#: templates/index.html:340
+#: templates/index.html:367 templates/strings.js:72
 msgid "Feedback"
 msgstr "प्रतिक्रिया"
 
-#: templates/index.html:341
+#: templates/index.html:368
 msgid "statements"
 msgstr "बयान"
 
-#: templates/index.html:343
+#: templates/index.html:370
 msgid "Privacy Policy"
 msgstr "गोपनीयता नीति"
 
-#: templates/index.html:347
+#: templates/index.html:371
 msgid "Contact us"
 msgstr "हमसे संपर्क करें"
 
-#: templates/index.html:348 templates/landing.html:19 templates/landing.html:23
+#: templates/index.html:372 templates/landing.html:19 templates/landing.html:21
 msgid "The Landing Page"
 msgstr "लैंडिंग पेज"
 
-#: templates/index.html:349
+#: templates/index.html:373
 msgid "Brand Resources"
 msgstr ""
 
-#: templates/index.html:350
+#: templates/index.html:374
+msgid "Web App Installation"
+msgstr ""
+
+#: templates/index.html:375
 msgid "API"
 msgstr "ए.पी.आई"
 
-#: templates/index.html:351
+#: templates/index.html:376
+msgid "Events"
+msgstr ""
+
+#: templates/index.html:377
 msgid "Beta"
 msgstr "बीटा"
 
@@ -1551,72 +1643,28 @@ msgstr "बीटा"
 msgid "Invitation"
 msgstr "निमंत्रण"
 
-#: templates/invitation.html:18
-msgid "You have declined this invitation for participation with"
-msgstr "आपने के साथ भागीदारी के लिए इस आमंत्रण को अस्वीकार कर दिया है"
-
-#: templates/invitation.html:24 templates/invitation.html:36
-msgid "in the competition"
-msgstr ""
-
-#: templates/invitation.html:27
-msgid "Acknowledged"
-msgstr "स्वीकार किया"
-
-#: templates/invitation.html:30
-msgid "You have accepted this invitation for participation with"
-msgstr "आपने के साथ भागीदारी के लिए इस आमंत्रण को स्वीकार कर लिया है"
-
-#: templates/invitation.html:39
-msgid "Let's go"
-msgstr "चलिए चलते हैं"
-
-#: templates/invitation.html:42
-msgid "You have been invited to participate in the competition"
-msgstr "आपको प्रतियोगिता में भाग लेने के लिए आमंत्रित किया गया है"
-
-#: templates/invitation.html:44
-msgid "together with"
-msgstr "के साथ"
-
-#: templates/invitation.html:51
-msgid "on the team."
-msgstr "टीम में"
-
-#: templates/invitation.html:56
+#: templates/invitation.html:23
 msgid "Accept Invitation"
 msgstr "आमंत्रण स्वीकारें"
 
-#: templates/invitation.html:61
+#: templates/invitation.html:30
 msgid "Decline Politely"
 msgstr "विनम्रतापूर्वक अस्वीकार करें"
 
-#: templates/invitation.html:67
-msgid "Invitation for successorship"
-msgstr "उत्तराधिकार के लिए आमंत्रण"
-
-#: templates/invitation.html:77
-msgid "Accept successorship"
-msgstr "उत्तराधिकार स्वीकार करें"
-
-#: templates/invitation.html:83
-msgid "Decline successorship"
-msgstr "उत्तराधिकार अस्वीकार करें"
-
-#: templates/landing.html:33 templates/landing.html:34
+#: templates/landing.html:31 templates/landing.html:32
 msgid "The landing page"
 msgstr "लैंडिंग पेज"
 
-#: templates/landing.html:36
+#: templates/landing.html:34
 msgid "Keep scrolling, will ya?"
 msgstr ""
 
-#: templates/landing.html:41
+#: templates/landing.html:39
 msgid "Scroll"
 msgstr ""
 
-#: templates/landing.html:45
-msgid "Please scroll, virtually begging you😥"
+#: templates/landing.html:43
+msgid "Please scroll, to proceed further😥"
 msgstr ""
 
 #: templates/landing.html:61
@@ -1627,31 +1675,43 @@ msgstr ""
 msgid "What is a landing page?"
 msgstr ""
 
-#: templates/landing.html:255
+#: templates/landing.html:269
 #, fuzzy
 #| msgid "For moderators"
 msgid "The Moderators"
 msgstr "मॉडरेटर के लिए"
 
-#: templates/landing.html:266
+#: templates/landing.html:281
 msgid "The Mentors"
 msgstr ""
 
-#: templates/landing.html:276
+#: templates/landing.html:292
+#, fuzzy
+#| msgid "Manage"
+msgid "The Managers"
+msgstr "प्रबंधित करें"
+
+#: templates/landing.html:301
 msgid "The Licenses"
 msgstr ""
 
-#: templates/landing.html:286
+#: templates/landing.html:311
 msgid "Your profile"
 msgstr ""
 
-#: templates/landing.html:299
+#: templates/landing.html:324
 msgid "The Topics"
 msgstr ""
 
-#: templates/landing.html:309
+#: templates/landing.html:336
 msgid "Everything counts"
 msgstr ""
+
+#: templates/management/invitation.html:14
+#, fuzzy
+#| msgid "Invitation"
+msgid "Organization Invitation"
+msgstr "निमंत्रण"
 
 #: templates/moderation/compete.html:19
 msgid "More details"
@@ -1709,7 +1769,9 @@ msgstr "समय पर"
 msgid "View submission"
 msgstr "सबमिशन देखें"
 
-#: templates/moderation/compete.html:79 templates/moderation/projects.html:74
+#: templates/moderation/compete.html:79
+#: templates/moderation/core-project.html:84
+#: templates/moderation/projects.html:78
 msgid "Reject"
 msgstr "अस्वीकार"
 
@@ -1808,13 +1870,18 @@ msgstr ""
 msgid "member"
 msgstr ""
 
-#: templates/moderation/compete.html:166 templates/moderation/projects.html:47
-#: templates/moderation/projects.html:57
-#: templates/people/profile/overview.html:47
-#: templates/people/setting/account.html:27
+#: templates/moderation/compete.html:166
+#: templates/moderation/core-project.html:52
+#: templates/moderation/core-project.html:62
+#: templates/moderation/projects.html:47 templates/moderation/projects.html:57
+#: templates/people/profile/overview.html:50
+#: templates/people/setting/account.html:34
 #: templates/people/setting/preference.html:44
-#: templates/projects/profile/0.html:57 templates/projects/profile/0.html:154
-#: templates/projects/profile/0.html:186
+#: templates/projects/profile/0.html:61 templates/projects/profile/0.html:131
+#: templates/projects/profile/0.html:191 templates/projects/profile/0.html:223
+#: templates/projects/profile/1.html:139 templates/projects/profile/2.html:63
+#: templates/projects/profile/2.html:130 templates/projects/profile/2.html:190
+#: templates/projects/profile/2.html:222
 msgid "Save"
 msgstr "सहेजें"
 
@@ -1887,8 +1954,6 @@ msgstr ""
 
 #: templates/moderation/compete.html:372 templates/moderation/compete.html:423
 #: templates/moderation/compete.html:449 templates/moderation/compete.html:468
-#: templates/moderation/projects.html:160
-#: templates/moderation/projects.html:161
 msgid "wait"
 msgstr ""
 
@@ -1957,139 +2022,167 @@ msgstr ""
 msgid "Only to verify authenticity"
 msgstr ""
 
-#: templates/moderation/projects.html:15
-msgid ""
-"Because you are our moderator and we trust you, here's a moderation for you."
+#: templates/moderation/core-project.html:15
+msgid "This is a core project request."
 msgstr ""
 
+#: templates/moderation/core-project.html:17
 #: templates/moderation/projects.html:17
 msgid ""
 "The moderator is reviewing your project, and once it's done, we'll notify "
 "you."
 msgstr ""
 
+#: templates/moderation/core-project.html:24
 #: templates/moderation/projects.html:24
 msgid "Status"
 msgstr ""
 
+#: templates/moderation/core-project.html:25
 #: templates/moderation/projects.html:25
 msgid "Type"
 msgstr ""
 
+#: templates/moderation/core-project.html:26
 #: templates/moderation/projects.html:26
 msgid "Category"
 msgstr ""
 
+#: templates/moderation/core-project.html:27
 #: templates/moderation/projects.html:27
 #: templates/projects/license/license.html:23
-#: templates/projects/profile/0.html:238
+#: templates/projects/profile/0.html:286 templates/projects/profile/2.html:295
 msgid "License"
 msgstr "लाइसेंस"
 
-#: templates/moderation/projects.html:40
-msgid "Requestor message"
+#: templates/moderation/core-project.html:29
+msgid "Requested by"
 msgstr ""
 
+#: templates/moderation/core-project.html:31
+#, fuzzy
+#| msgid "Moderation"
+msgid "Moderated by"
+msgstr "परिनियमन"
+
+#: templates/moderation/core-project.html:48
 #: templates/moderation/projects.html:43
 msgid "This is visible to the moderator."
+msgstr ""
+
+#: templates/moderation/core-project.html:57
+#: templates/moderation/projects.html:52
+msgid "No response"
+msgstr ""
+
+#: templates/moderation/core-project.html:58
+#: templates/moderation/projects.html:53
+msgid "This is visible to the requestor."
+msgstr ""
+
+#: templates/moderation/core-project.html:75
+#: templates/moderation/projects.html:69
+msgid "Take Action"
+msgstr ""
+
+#: templates/moderation/core-project.html:83
+#: templates/moderation/projects.html:77
+msgid "Approve"
+msgstr ""
+
+#: templates/moderation/core-project.html:90
+#: templates/moderation/projects.html:89
+#: templates/people/profile/moderation.html:58
+msgid "Pending"
+msgstr ""
+
+#: templates/moderation/core-project.html:92
+#: templates/moderation/projects.html:91
+msgid "View project"
+msgstr ""
+
+#: templates/moderation/core-project.html:96
+#: templates/moderation/projects.html:95
+msgid "Moderation re-applied"
+msgstr ""
+
+#: templates/moderation/core-project.html:97
+#: templates/moderation/projects.html:96
+msgid "View moderation"
+msgstr ""
+
+#: templates/moderation/core-project.html:99
+#: templates/moderation/projects.html:98
+msgid "Project deleted"
+msgstr "परियोजना हटाई गई"
+
+#: templates/moderation/core-project.html:106
+msgid "retry left."
+msgstr ""
+
+#: templates/moderation/core-project.html:109
+#: templates/moderation/projects.html:108
+msgid "Re-apply for moderation"
+msgstr ""
+
+#: templates/moderation/core-project.html:120
+#: templates/moderation/projects.html:120 templates/projects/profile/0.html:273
+msgid "Delete project"
+msgstr "प्रोजेक्ट हटाएं"
+
+#: templates/moderation/core-project.html:129
+#: templates/projects/profile/2.html:296
+msgid "Budget"
+msgstr ""
+
+#: templates/moderation/core-project.html:155
+#: templates/moderation/projects.html:148
+msgid "Resolving moderation"
+msgstr ""
+
+#: templates/moderation/core-project.html:155
+#: templates/moderation/projects.html:148
+msgid "please wait"
+msgstr ""
+
+#: templates/moderation/core-project.html:168
+#: templates/moderation/projects.html:161
+msgid "Final confirmation"
+msgstr ""
+
+#: templates/moderation/core-project.html:172
+#: templates/moderation/projects.html:165
+msgid "This action is irreversible."
+msgstr ""
+
+#: templates/moderation/projects.html:15
+msgid ""
+"Because you are our moderator and we trust you, here's a moderation for you."
+msgstr ""
+
+#: templates/moderation/projects.html:40
+msgid "Requestor message"
 msgstr ""
 
 #: templates/moderation/projects.html:50
 msgid "Moderator response"
 msgstr ""
 
-#: templates/moderation/projects.html:52
-msgid "No response"
-msgstr ""
-
-#: templates/moderation/projects.html:53
-msgid "This is visible to the requestor."
-msgstr ""
-
-#: templates/moderation/projects.html:70
-msgid "Take Action"
-msgstr ""
-
-#: templates/moderation/projects.html:72
+#: templates/moderation/projects.html:76
 msgid "Therefore, decide thoughtfully before proceeding."
 msgstr ""
 
-#: templates/moderation/projects.html:73
-msgid "Approve"
-msgstr ""
-
-#: templates/moderation/projects.html:78
+#: templates/moderation/projects.html:82
 msgid "Skip"
 msgstr ""
 
-#: templates/moderation/projects.html:83
-#: templates/people/profile/moderation.html:52
-msgid "Pending"
-msgstr ""
-
-#: templates/moderation/projects.html:85
-msgid "View project"
-msgstr ""
-
-#: templates/moderation/projects.html:90
-msgid "retry left."
-msgstr ""
-
-#: templates/moderation/projects.html:93
-msgid "Re-apply for moderation"
-msgstr ""
-
-#: templates/moderation/projects.html:99 templates/projects/profile/0.html:226
-msgid "Delete project"
-msgstr "प्रोजेक्ट हटाएं"
-
-#: templates/moderation/projects.html:102
-msgid "Project deleted"
-msgstr "परियोजना हटाई गई"
-
 #: templates/moderation/projects.html:105
-msgid "Moderation re-applied"
+msgid "retries left."
 msgstr ""
 
-#: templates/moderation/projects.html:106
-msgid "View moderation"
-msgstr ""
-
-#: templates/moderation/projects.html:116
+#: templates/moderation/projects.html:133
 msgid ""
 "we keep the identity of requestor and moderator anonymous to each other."
-msgstr ""
-
-#: templates/moderation/projects.html:131
-msgid "Resolving moderation"
-msgstr ""
-
-#: templates/moderation/projects.html:131
-msgid "please wait"
-msgstr ""
-
-#: templates/moderation/projects.html:144
-msgid "Final confirmation"
-msgstr ""
-
-#: templates/moderation/projects.html:148
-msgid "This action is irreversible."
-msgstr ""
-
-#: templates/moderation/projects.html:187
-msgid "Reporting"
-msgstr "रिपोर्टिंग"
-
-#: templates/moderation/projects.html:195
-msgid "Reported"
-msgstr "सूचना दी"
-
-#: templates/moderation/projects.html:195
-msgid "We\\'ll investigate."
-msgstr ""
-
-#: templates/moderation/projects.html:199
-msgid "go back"
 msgstr ""
 
 #: templates/offline.html:10 templates/offline.html:12
@@ -2121,28 +2214,12 @@ msgstr ""
 msgid "No profiles yet. You're the first one!"
 msgstr ""
 
-#: templates/people/browse/search.html:10
-#: templates/projects/browse/search.html:10
-#: templates/projects/license/search.html:10
-#, python-format
-msgid "Results for '%(query)s'"
-msgstr "'%(query)s' के लिए परिणाम"
-
-#: templates/people/browse/search.html:34
-#: templates/people/browse/search.html:62
-#: templates/projects/browse/search.html:33
-#: templates/projects/browse/search.html:60
-#: templates/projects/license/search.html:25
-#, python-format
-msgid "No results for '%(query)s'"
-msgstr ""
-
 #: templates/people/browse/trending-mentors.html:11
 msgid "Trending mentors"
 msgstr ""
 
-#: templates/people/browse/trending-mentors.html:35
-#: templates/people/browse/trending-mentors.html:63
+#: templates/people/browse/trending-mentors.html:37
+#: templates/people/browse/trending-mentors.html:65
 msgid "No mentors yet. You're the first one!"
 msgstr ""
 
@@ -2152,110 +2229,145 @@ msgstr ""
 msgid "Trending moderators"
 msgstr "मॉडरेटर के लिए"
 
-#: templates/people/browse/trending-moderators.html:35
+#: templates/people/browse/trending-moderators.html:37
 msgid "No moderators yet. You're the first one!"
 msgstr ""
 
-#: templates/people/browse/trending-moderators.html:63
+#: templates/people/browse/trending-moderators.html:65
 #, fuzzy
 #| msgid "For moderators"
 msgid "No moderators yet!"
 msgstr "मॉडरेटर के लिए"
 
-#: templates/people/index.html:58
-msgid "Type to search for people"
+#: templates/people/framework.html:11 templates/people/framework.html:13
+#: templates/people/framework.html:16 templates/people/framework.html:18
+#: templates/people/framework.html:20 templates/people/framework.html:26
+msgid "Framework"
 msgstr ""
 
-#: templates/people/index.html:81 templates/people/index.html:82
+#: templates/people/framework/create.html:11
+#: templates/people/framework/create.html:13
+#: templates/people/framework/create.html:16
+#: templates/people/framework/create.html:18
+#: templates/people/framework/create.html:20
+#, fuzzy
+#| msgid "Create account"
+msgid "Create Framework"
+msgstr "अकाउंट बनाएं"
+
+#: templates/people/index.html:68
+msgid "Search community as type:mentor, topic:creativity, or anything"
+msgstr ""
+
+#: templates/people/index.html:93 templates/people/index.html:94
+#: templates/people/profile.html:168
 msgid "Frameworks"
 msgstr ""
 
-#: templates/people/index.html:84
+#: templates/people/index.html:96
 #, python-format
 msgid "Community frameworks, a new way to help everyone grow on %(APPNAME)s."
 msgstr ""
 
-#: templates/people/index.html:86 templates/projects/profile/0.html:202
+#: templates/people/index.html:98
 msgid "Coming soon"
 msgstr ""
 
-#: templates/people/index.html:112
-msgid "Type something to search profiles"
-msgstr ""
+#: templates/people/index.html:123
+#, fuzzy
+#| msgid "Type something to search projects"
+msgid "Type something to search people"
+msgstr "प्रोजेक्ट खोजने के लिए टाइप करें"
 
-#: templates/people/profile.html:56
+#: templates/people/invitation.html:13
+msgid "Invitation for successorship"
+msgstr "उत्तराधिकार के लिए आमंत्रण"
+
+#: templates/people/invitation.html:25
+msgid "Accept successorship"
+msgstr "उत्तराधिकार स्वीकार करें"
+
+#: templates/people/invitation.html:26
+msgid "Decline successorship"
+msgstr "उत्तराधिकार अस्वीकार करें"
+
+#: templates/people/profile.html:42 templates/people/profile.html:181
+#: templates/projects/profile/0.html:256 templates/projects/profile/1.html:294
+#: templates/projects/profile/2.html:255
+msgid "Settings"
+msgstr "समायोजन"
+
+#: templates/people/profile.html:62
 msgid "Your account is currently deactived."
 msgstr "आपका खाता वर्तमान में निष्क्रिय है"
 
-#: templates/people/profile.html:57
+#: templates/people/profile.html:63
 msgid ""
 "This means your profile is currently not visible to anyone in the world."
 msgstr ""
 "इसका मतलब है कि आपकी प्रोफ़ाइल वर्तमान में दुनिया में किसी को भी दिखाई नहीं दे रही है"
 
-#: templates/people/profile.html:59
+#: templates/people/profile.html:65
 msgid ""
 "Your profile is currently suspended. We must have emailed you regarding "
 "this, please check your inbox."
 msgstr ""
 
-#: templates/people/profile.html:61
+#: templates/people/profile.html:67
 msgid "If you have changed your mind, then you can reactivate your account."
 msgstr "यदि आपने अपना विचार बदल दिया है, तो आप अपने खाते को पुनः सक्रिय कर सकते हैं।"
 
-#: templates/people/profile.html:62
+#: templates/people/profile.html:68
 msgid "Re-activate my account"
 msgstr "मेरा खाता सक्रिय करें"
 
-#: templates/people/profile.html:63
+#: templates/people/profile.html:69
 msgid "You'll have to login again after reactivating."
 msgstr "पुनः सक्रिय करने के बाद आपको फिर से लॉगिन करना होगा"
 
-#: templates/people/profile.html:130
+#: templates/people/profile.html:136
 msgid "Email ID"
 msgstr "ईमेल आई.डी."
 
-#: templates/people/profile.html:131
+#: templates/people/profile.html:137
 msgid "Date joined"
 msgstr "दिनांक मिल हुए"
 
-#: templates/people/profile.html:132
+#: templates/people/profile.html:138
 msgid "Last login"
 msgstr "अंतिम लॉगिन"
 
-#: templates/people/profile.html:139
+#: templates/people/profile.html:145
 msgid "Block"
 msgstr "ब्लॉक"
 
-#: templates/people/profile.html:152
-msgid "Mentorship"
-msgstr ""
+#: templates/people/profile.html:158
+#, fuzzy
+#| msgid "No projects live, yet."
+msgid "Mentorships"
+msgstr "कोई प्रोजेक्ट लाइव नहीं है, अभी तक"
 
-#: templates/people/profile.html:156
+#: templates/people/profile.html:162
 msgid "Acheivements"
 msgstr ""
 
-#: templates/people/profile.html:162 templates/people/profile.html:180
+#: templates/people/profile.html:166
+msgid "People"
+msgstr "लोग"
+
+#: templates/people/profile.html:170 templates/people/profile.html:189
 msgid "Moderation"
 msgstr "परिनियमन"
 
-#: templates/people/profile.html:173 templates/projects/profile/0.html:217
-msgid "Settings"
-msgstr "समायोजन"
-
-#: templates/people/profile.html:176
-msgid "Account"
-msgstr "अकाउंट"
-
-#: templates/people/profile.html:177
+#: templates/people/profile.html:186
 msgid "Preference"
 msgstr ""
 
-#: templates/people/profile.html:178
+#: templates/people/profile.html:187
 msgid "Security"
 msgstr "सुरक्षा"
 
-#: templates/people/profile.html:208
+#: templates/people/profile.html:225
 msgid "Your account has been reactivated"
 msgstr ""
 
@@ -2285,94 +2397,144 @@ msgstr ""
 msgid "No competitions, yet."
 msgstr ""
 
+#: templates/people/profile/frameworks.html:14
+#, fuzzy
+#| msgid "No projects live, yet."
+msgid "No frameworks, yet."
+msgstr "कोई प्रोजेक्ट लाइव नहीं है, अभी तक"
+
 #: templates/people/profile/mentorship.html:16
 #: templates/people/profile/projects.html:18
 msgid "Live"
 msgstr ""
 
 #: templates/people/profile/mentorship.html:31
-#: templates/people/profile/mentorship.html:79
+#: templates/people/profile/mentorship.html:81
 #, fuzzy
 #| msgid "No projects live, yet."
 msgid "No mentorships, yet."
 msgstr "कोई प्रोजेक्ट लाइव नहीं है, अभी तक"
 
-#: templates/people/profile/mentorship.html:42
+#: templates/people/profile/mentorship.html:32
+#: templates/people/profile/moderation.html:46
+msgid "Patience is the key."
+msgstr ""
+
+#: templates/people/profile/mentorship.html:43
 msgid "Requests"
 msgstr ""
 
-#: templates/people/profile/mentorship.html:56
+#: templates/people/profile/mentorship.html:57
 msgid "No mentorship requests, yet."
+msgstr ""
+
+#: templates/people/profile/mentorship.html:58
+msgid "Don't worry, you'll get one soon."
 msgstr ""
 
 #: templates/people/profile/moderation.html:16
 msgid "Approved"
 msgstr ""
 
-#: templates/people/profile/moderation.html:40
-#: templates/people/profile/moderation.html:106
+#: templates/people/profile/moderation.html:45
 msgid "Wait for it."
 msgstr ""
 
-#: templates/people/profile/moderation.html:66
+#: templates/people/profile/moderation.html:76
 msgid "Review"
 msgstr ""
 
-#: templates/people/profile/moderation.html:72
+#: templates/people/profile/moderation.html:82
 msgid "All resolved"
 msgstr ""
 
-#: templates/people/profile/moderation.html:84
-#: templates/people/profile/projects.html:71
+#: templates/people/profile/moderation.html:83
+msgid "Help the ones which are live."
+msgstr ""
+
+#: templates/people/profile/moderation.html:95
+#: templates/people/profile/projects.html:73
 msgid "Rejected"
 msgstr ""
 
-#: templates/people/profile/overview.html:20
-#: templates/projects/profile/0.html:127
-msgid "Add topics"
+#: templates/people/profile/moderation.html:121
+#, fuzzy
+#| msgid "New project"
+msgid "None rejected"
+msgstr "नई परियोजना"
+
+#: templates/people/profile/moderation.html:122
+msgid "Cool!"
 msgstr ""
 
-#: templates/people/profile/overview.html:25
-#: templates/projects/profile/0.html:132
+#: templates/people/profile/overview.html:22
 msgid "No topics yet."
 msgstr ""
 
-#: templates/people/profile/overview.html:34
-#: templates/projects/profile/0.html:141
+#: templates/people/profile/overview.html:25
+msgid "Add topics"
+msgstr ""
+
+#: templates/people/profile/overview.html:36
+#: templates/projects/profile/0.html:177 templates/projects/profile/2.html:176
 msgid "Total 5 topics allowed"
 msgstr ""
 
-#: templates/people/profile/overview.html:48
-#: templates/people/setting/account.html:28
-#: templates/projects/profile/0.html:155 templates/projects/profile/0.html:187
+#: templates/people/profile/overview.html:51
+#: templates/people/setting/account.html:35
+#: templates/projects/profile/0.html:192 templates/projects/profile/0.html:224
+#: templates/projects/profile/2.html:191 templates/projects/profile/2.html:223
+#: templates/strings.js:30
 msgid "Cancel"
 msgstr ""
 
-#: templates/people/profile/overview.html:59
+#: templates/people/profile/overview.html:61
 msgid "Graph depends on topics."
 msgstr ""
 
-#: templates/people/profile/overview.html:60
-msgid "Add topics in your profile to enable graph."
+#: templates/people/profile/overview.html:63
+msgid "No topics means no shiny, cool looking graph for you."
 msgstr ""
 
-#: templates/people/profile/overview.html:64
-msgid "No topics for graph, yet."
+#: templates/people/profile/people.html:49
+#, fuzzy
+#| msgid "No projects live, yet."
+msgid "No people, yet."
+msgstr "कोई प्रोजेक्ट लाइव नहीं है, अभी तक"
+
+#: templates/people/profile/people.html:51
+msgid "People in your management will be shown here."
 msgstr ""
 
 #: templates/people/profile/projects.html:33
 msgid "No projects live, yet."
 msgstr "कोई प्रोजेक्ट लाइव नहीं है, अभी तक"
 
-#: templates/people/profile/projects.html:44
+#: templates/people/profile/projects.html:34
+msgid "Don't worry. Keep exploring."
+msgstr ""
+
+#: templates/people/profile/projects.html:45
 msgid "Under review"
 msgstr ""
 
-#: templates/people/profile/projects.html:85
+#: templates/people/profile/projects.html:61
+msgid "Create"
+msgstr ""
+
+#: templates/people/profile/projects.html:62
+msgid "Start small. Dream big."
+msgstr ""
+
+#: templates/people/profile/projects.html:87
 msgid "None rejected!"
 msgstr ""
 
-#: templates/people/profile/projects.html:108
+#: templates/people/profile/projects.html:88
+msgid "This is rare."
+msgstr ""
+
+#: templates/people/profile/projects.html:111
 msgid "No projects, yet."
 msgstr ""
 
@@ -2384,13 +2546,27 @@ msgstr ""
 msgid "Sike! You thought."
 msgstr "हाहा, तुम्हे क्या लगा!"
 
-#: templates/people/setting/account.html:21
+#: templates/people/setting/account.html:18
+msgid "Phone"
+msgstr ""
+
+#: templates/people/setting/account.html:26
 msgid "Change Email address"
 msgstr "ईमेल पता बदलें"
 
-#: templates/people/setting/account.html:25
+#: templates/people/setting/account.html:30
 msgid "Forgot Password"
 msgstr "कूटशब्द भूल गए"
+
+#: templates/people/setting/account.html:31
+msgid "Change Phone numbers"
+msgstr ""
+
+#: templates/people/setting/account.html:32
+#, fuzzy
+#| msgid "Members"
+msgid "Phone numbers"
+msgstr "सदस्य"
 
 #: templates/people/setting/preference.html:8
 msgid "Preference settings"
@@ -2401,8 +2577,10 @@ msgid "Notifications"
 msgstr ""
 
 #: templates/people/setting/preference.html:45
-#: templates/projects/profile/0.html:58 templates/projects/profile/0.html:263
-#: templates/projects/profile/1.html:247
+#: templates/projects/profile/0.html:62 templates/projects/profile/0.html:132
+#: templates/projects/profile/0.html:310 templates/projects/profile/1.html:140
+#: templates/projects/profile/1.html:347 templates/projects/profile/2.html:64
+#: templates/projects/profile/2.html:131 templates/projects/profile/2.html:320
 msgid "Discard"
 msgstr "रद्द करें"
 
@@ -2483,16 +2661,16 @@ msgstr "आपके लिए अनुशंसित"
 msgid "Trending Projects"
 msgstr "सत्यापित परियोजना"
 
-#: templates/projects/create.html:10 templates/projects/create.html:11
-#: templates/projects/create.html:14 templates/projects/create.html:15
+#: templates/projects/create.html:13 templates/projects/create.html:14
+#: templates/projects/create.html:17 templates/projects/create.html:18
 msgid "Create Project"
 msgstr "प्रोजेक्ट बनाएं"
 
-#: templates/projects/create.html:16
+#: templates/projects/create.html:21
 msgid "Create project"
 msgstr "प्रोजेक्ट बनाएं"
 
-#: templates/projects/create.html:19 templates/projects/index.html:32
+#: templates/projects/create.html:24 templates/projects/index.html:33
 #: templates/projects/license/index.html:10
 #: templates/projects/license/index.html:12
 #: templates/projects/license/index.html:15
@@ -2501,13 +2679,19 @@ msgstr "प्रोजेक्ट बनाएं"
 msgid "Licenses"
 msgstr "लाइसेंस"
 
-#: templates/projects/create.html:42
+#: templates/projects/create.html:48
 msgid "Quick Project"
 msgstr "त्वरित परियोजना"
 
-#: templates/projects/create.html:62
+#: templates/projects/create.html:68
 msgid "Verified Project"
 msgstr "सत्यापित परियोजना"
+
+#: templates/projects/create.html:88
+#, fuzzy
+#| msgid "Create Project"
+msgid "Core Project"
+msgstr "प्रोजेक्ट बनाएं"
 
 #: templates/projects/create/0.html:16
 msgid "New"
@@ -2517,23 +2701,29 @@ msgstr "नया"
 msgid "Quick project"
 msgstr "त्वरित परियोजना"
 
-#: templates/projects/create/1.html:15
+#: templates/projects/create/1.html:16
 msgid "Submit project"
 msgstr "परियोजना सबमिट करें"
 
-#: templates/projects/create/1.html:27
+#: templates/projects/create/1.html:28
 msgid "Do not fill any personal information at any step."
 msgstr ""
 
-#: templates/projects/index.html:33
+#: templates/projects/create/2.html:16
+#, fuzzy
+#| msgid "Delete project"
+msgid "Request core project"
+msgstr "प्रोजेक्ट हटाएं"
+
+#: templates/projects/index.html:34
 msgid "New project"
 msgstr "नई परियोजना"
 
-#: templates/projects/index.html:70
-msgid "Type to search for projects"
-msgstr "प्रोजेक्ट खोजने के लिए टाइप करें"
+#: templates/projects/index.html:72
+msgid "Search projects as topic:translation, category:website, or anything"
+msgstr ""
 
-#: templates/projects/index.html:106
+#: templates/projects/index.html:109
 msgid "Type something to search projects"
 msgstr "प्रोजेक्ट खोजने के लिए टाइप करें"
 
@@ -2541,23 +2731,23 @@ msgstr "प्रोजेक्ट खोजने के लिए टाइ�
 msgid "Type to search for licenses"
 msgstr "लाइसेंस खोजने के लिए टाइप करें"
 
-#: templates/projects/license/index.html:44
+#: templates/projects/license/index.html:45
 msgid "Your private custom licenses"
 msgstr "आपके निजी कस्टम लाइसेंस"
 
-#: templates/projects/license/index.html:61
+#: templates/projects/license/index.html:64
 msgid "Public licenses"
 msgstr "सार्वजनिक लाइसेंस"
 
-#: templates/projects/license/index.html:92
+#: templates/projects/license/index.html:95
 msgid "Type something to search licenses"
 msgstr ""
 
-#: templates/projects/license/license.html:56
+#: templates/projects/license/license.html:57
 msgid "Source"
 msgstr ""
 
-#: templates/projects/license/license.html:60
+#: templates/projects/license/license.html:59
 #, fuzzy, python-format
 #| msgid ""
 #| "This license is not provided by %(APPNAME)s, and may require modification "
@@ -2571,83 +2761,73 @@ msgstr ""
 "यह लाइसेंस %(APPNAME)s द्वारा प्रदान नहीं किया गया है, और इसका उपयोग करने के लिए "
 "संशोधन और निर्माता से अनुमति की आवश्यकता हो सकती है ।"
 
-#: templates/projects/profile/0.html:15 templates/projects/profile/1.html:15
+#: templates/projects/license/license.html:63
+msgid "This license is not intended to be used in open source projects.</a>"
+msgstr ""
+
+#: templates/projects/profile/0.html:19 templates/projects/profile/1.html:22
+#: templates/projects/profile/2.html:21
 msgid "This project is currently suspended."
 msgstr ""
 
-#: templates/projects/profile/0.html:16 templates/projects/profile/1.html:16
+#: templates/projects/profile/0.html:20 templates/projects/profile/1.html:23
+#: templates/projects/profile/2.html:22
 msgid "This means the project is currently invisible to the world."
 msgstr ""
 
-#: templates/projects/profile/0.html:17 templates/projects/profile/1.html:17
+#: templates/projects/profile/0.html:21 templates/projects/profile/1.html:24
+#: templates/projects/profile/2.html:23
 msgid ""
 "We must have emailed you regarding this action, please check your inbox."
 msgstr ""
 
-#: templates/projects/profile/0.html:47
+#: templates/projects/profile/0.html:51 templates/projects/profile/2.html:53
 msgid "Select Image"
 msgstr ""
 
-#: templates/projects/profile/0.html:81 templates/projects/profile/1.html:77
+#: templates/projects/profile/0.html:85 templates/projects/profile/1.html:84
+#: templates/projects/profile/2.html:84
 #, fuzzy
 #| msgid "Disable"
 msgid "Disadmire"
 msgstr "अक्षम करें"
 
-#: templates/projects/profile/0.html:83 templates/projects/profile/0.html:87
-#: templates/projects/profile/1.html:79 templates/projects/profile/1.html:83
+#: templates/projects/profile/0.html:87 templates/projects/profile/0.html:91
+#: templates/projects/profile/1.html:86 templates/projects/profile/1.html:90
+#: templates/projects/profile/2.html:86 templates/projects/profile/2.html:90
 msgid "Admire"
 msgstr ""
 
-#: templates/projects/profile/0.html:166
+#: templates/projects/profile/0.html:203 templates/projects/profile/2.html:202
 msgid "No tags assigned"
 msgstr ""
 
-#: templates/projects/profile/0.html:172
+#: templates/projects/profile/0.html:209 templates/projects/profile/2.html:208
 msgid "Total 5 tags allowed"
 msgstr ""
 
-#: templates/projects/profile/0.html:175
+#: templates/projects/profile/0.html:212 templates/projects/profile/2.html:211
 msgid "Search tags"
 msgstr ""
 
-#: templates/projects/profile/0.html:193
-msgid "Assets"
-msgstr ""
-
-#: templates/projects/profile/0.html:200
-msgid "Add assets"
-msgstr ""
-
-#: templates/projects/profile/0.html:201
-msgid "anything related to the project."
-msgstr ""
-
-#: templates/projects/profile/0.html:207
-msgid "No assets"
-msgstr ""
-
-#: templates/projects/profile/0.html:236
+#: templates/projects/profile/0.html:284 templates/projects/profile/2.html:292
 msgid "Created on"
 msgstr ""
 
-#: templates/projects/profile/0.html:237
+#: templates/projects/profile/0.html:285 templates/projects/profile/2.html:293
 msgid "Created by"
 msgstr ""
 
-#: templates/projects/profile/0.html:259
-msgid "Add image"
-msgstr ""
-
-#: templates/projects/profile/0.html:262 templates/projects/profile/1.html:246
+#: templates/projects/profile/0.html:309 templates/projects/profile/1.html:346
+#: templates/projects/profile/2.html:319
 msgid "Publish snapshot"
 msgstr ""
 
-#: templates/projects/profile/0.html:275
+#: templates/projects/profile/0.html:319 templates/projects/profile/2.html:329
 msgid "Load more"
 msgstr ""
 
-#: templates/projects/profile/0.html:317
+#: templates/projects/profile/0.html:356
 msgid "Delete Project"
 msgstr "परियोजना"
 
@@ -2660,22 +2840,489 @@ msgid ""
 msgstr ""
 
 #: templates/strings.js:7
+msgid "Updating..."
+msgstr ""
+
+#: templates/strings.js:9
+msgid "Okay, we won\\'t remind you in this session."
+msgstr ""
+
+#: templates/strings.js:10
+msgid "An internal error occurred. We humbly request you to reload this page."
+msgstr ""
+
+#: templates/strings.js:11
+msgid "App updated successfully."
+msgstr ""
+
+#: templates/strings.js:12
+msgid "App installed successfully."
+msgstr ""
+
+#: templates/strings.js:13
+msgid ""
+"Your browser doesn\\'t support some of our features ☹️. Please update/change "
+"your browser for the best experience."
+msgstr ""
+
+#: templates/strings.js:14
+#, python-format
+msgid "A new version of %(APPNAME)s is available"
+msgstr ""
+
+#: templates/strings.js:15
+msgid "with new features"
+msgstr ""
+
+#: templates/strings.js:16
+msgid "performance improvements"
+msgstr ""
+
+#: templates/strings.js:17
+msgid "Shall we update?"
+msgstr ""
+
+#: templates/strings.js:18
+msgid "Updates are important."
+msgstr ""
+
+#: templates/strings.js:19
+msgid "It will take a few seconds, depending upon your network strength."
+msgstr ""
+
+#: templates/strings.js:20
+#, fuzzy
+#| msgid "Last updated on"
+msgid "Yes, update now"
+msgstr "अंतिम अद्यतन"
+
+#: templates/strings.js:21
+msgid "No, not now"
+msgstr ""
+
+#: templates/strings.js:22
 #, fuzzy
 #| msgid "Press Alt+R for introduction, or visit The Landing Page"
 msgid "Press Alt+R for re-introduction, or visit The Landing Page"
 msgstr "परिचय के लिए Alt+R दबाएं, या लैंडिंग पेज पर जाएं"
 
-#: templates/strings.js:8
+#: templates/strings.js:23
 msgid "Update available"
 msgstr ""
 
-#: templates/strings.js:9
+#: templates/strings.js:24
 msgid "Something went wrong."
 msgstr ""
 
-#: templates/strings.js:10
+#: templates/strings.js:25
+msgid "Successfull"
+msgstr ""
+
+#: templates/strings.js:26
 msgid "Network error, check your connection."
 msgstr ""
+
+#: templates/strings.js:27
+msgid "required"
+msgstr ""
+
+#: templates/strings.js:28
+msgid "Crop Image"
+msgstr ""
+
+#: templates/strings.js:29
+msgid "Image too large. Preferred size < 10 MB"
+msgstr ""
+
+#: templates/strings.js:31
+msgid "Confirm"
+msgstr ""
+
+#: templates/strings.js:32
+#, fuzzy
+#| msgid "The Landing Page"
+msgid "Loading image..."
+msgstr "लैंडिंग पेज"
+
+#: templates/strings.js:33
+msgid "Sharing not available on your system."
+msgstr ""
+
+#: templates/strings.js:34
+msgid "Failed to process file"
+msgstr ""
+
+#: templates/strings.js:35
+msgid "Limit Exceeded"
+msgstr ""
+
+#: templates/strings.js:36
+msgid "Failed to logout"
+msgstr ""
+
+#: templates/strings.js:37
+msgid "Logged out successfully"
+msgstr ""
+
+#: templates/strings.js:38
+#, fuzzy
+#| msgid "Copy to clipboard"
+msgid "Copied to clipboard"
+msgstr "क्लिपबोर्ड पर कॉपी करें"
+
+#: templates/strings.js:39
+#, fuzzy
+#| msgid "Copy to clipboard"
+msgid "Failed to copy to clipboard"
+msgstr "क्लिपबोर्ड पर कॉपी करें"
+
+#: templates/strings.js:40
+msgid "Try that again?"
+msgstr ""
+
+#: templates/strings.js:41
+msgid "Take me to Knotters"
+msgstr ""
+
+#: templates/strings.js:42
+#, fuzzy, python-format
+#| msgid "Welcome to %(APPNAME)s"
+msgid "I\\'ll stay in %(APPNAME)s"
+msgstr "%(APPNAME)s में आपका स्वागत है"
+
+#: templates/strings.js:43
+#, python-format
+msgid "Remember, you\\'re using %(APPNAME)s, not Knotters!"
+msgstr ""
+
+#: templates/strings.js:44
+msgid "Glad we could help 😊! Do not hesitate to contact us anytime."
+msgstr ""
+
+#: templates/strings.js:45
+msgid ""
+"We\\'re sorry to hear that. You may submit a report, or reach us via our "
+"social channels or email."
+msgstr ""
+
+#: templates/strings.js:46
+#, fuzzy
+#| msgid "Click here to learn more."
+msgid "Click here to report."
+msgstr "और जानने के लिए यहां क्लिक करे"
+
+#: templates/strings.js:47
+msgid "Problem solved!"
+msgstr ""
+
+#: templates/strings.js:48
+msgid "I still have problems"
+msgstr ""
+
+#: templates/strings.js:49
+#, fuzzy
+#| msgid "Block"
+msgid "Blocking..."
+msgstr "ब्लॉक"
+
+#: templates/strings.js:50
+msgid "No, wait!"
+msgstr ""
+
+#: templates/strings.js:51
+msgid "Yes, block!"
+msgstr ""
+
+#: templates/strings.js:52
+#, fuzzy
+#| msgid "Block"
+msgid "Blocked"
+msgstr "ब्लॉक"
+
+#: templates/strings.js:53
+#, fuzzy
+#| msgid "Block"
+msgid "block"
+msgstr "ब्लॉक"
+
+#: templates/strings.js:55
+msgid "Click anywhere around the image to close preview."
+msgstr ""
+
+#: templates/strings.js:56
+#, fuzzy
+#| msgid "Are you sure you want to disable"
+msgid "Are you sure you want to"
+msgstr "क्या आप वाकई अक्षम करना चाहते हैं"
+
+#: templates/strings.js:57
+msgid "You can unblock them anytime from your profile\\'s privacy settings."
+msgstr ""
+
+#: templates/strings.js:58
+msgid "Leave it"
+msgstr ""
+
+#: templates/strings.js:59
+#, fuzzy
+#| msgid "Linked Accounts"
+msgid "Link Github Account"
+msgstr "जुड़े खातों"
+
+#: templates/strings.js:60
+msgid "GitHub ID required"
+msgstr ""
+
+#: templates/strings.js:61
+#, python-format
+msgid "Your GitHub identity must be linked with %(APPNAME)s for this action."
+msgstr ""
+
+#: templates/strings.js:64
+msgid "Oops! Something went wrong."
+msgstr ""
+
+#: templates/strings.js:65
+msgid "Theme set to system default"
+msgstr ""
+
+#: templates/strings.js:66
+msgid "Use"
+msgstr ""
+
+#: templates/strings.js:67
+msgid "to toggle it."
+msgstr ""
+
+#: templates/strings.js:68
+msgid "Successfully subscribed to notifications of"
+msgstr ""
+
+#: templates/strings.js:69
+msgid "Subscription unavailable"
+msgstr ""
+
+#: templates/strings.js:70
+msgid "Successfully unsubscribed from notifications of"
+msgstr ""
+
+#: templates/strings.js:73
+msgid "received and will be looked into."
+msgstr ""
+
+#: templates/strings.js:75
+msgid "Your identity will remain private."
+msgstr ""
+
+#: templates/strings.js:76
+#, fuzzy
+#| msgid "Competition"
+msgid "optional"
+msgstr "प्रतियोगिता"
+
+#: templates/strings.js:78
+msgid "Explain everything here in detail"
+msgstr ""
+
+#: templates/strings.js:79
+#, fuzzy
+#| msgid "Association"
+msgid "Short description"
+msgstr "सहयोग"
+
+#: templates/strings.js:80
+msgid "Short description required"
+msgstr ""
+
+#: templates/strings.js:81
+msgid "Send"
+msgstr ""
+
+#: templates/strings.js:82
+#, fuzzy
+#| msgid "Submitted"
+msgid "Submitting"
+msgstr "जमा किया गया"
+
+#: templates/strings.js:83
+msgid "Select category"
+msgstr ""
+
+#: templates/strings.js:84
+#, fuzzy
+#| msgid "Reporting"
+msgid "Reporting..."
+msgstr "रिपोर्टिंग"
+
+#: templates/strings.js:85
+msgid "Reported"
+msgstr "सूचना दी"
+
+#: templates/strings.js:86
+msgid "We\\'ll investigate."
+msgstr ""
+
+#: templates/strings.js:87
+#, fuzzy
+#| msgid "Delete project"
+msgid "Delete"
+msgstr "प्रोजेक्ट हटाएं"
+
+#: templates/strings.js:88 templates/view_snapshot.html:29
+msgid "Snapshot"
+msgstr ""
+
+#: templates/strings.js:89
+msgid "delete the snapshot"
+msgstr ""
+
+#: templates/strings.js:90
+#, fuzzy
+#| msgid "Project deleted"
+msgid "Yes, delete"
+msgstr "परियोजना हटाई गई"
+
+#: templates/strings.js:91
+msgid "No snapshots"
+msgstr ""
+
+#: templates/strings.js:92
+msgid "No more snapshots"
+msgstr ""
+
+#: templates/strings.js:93
+#, fuzzy
+#| msgid "Create project"
+msgid "Creating project..."
+msgstr "प्रोजेक्ट बनाएं"
+
+#: templates/strings.js:94
+msgid "Click on a license bubble to choose one."
+msgstr ""
+
+#: templates/strings.js:95
+msgid "Some values are invalid."
+msgstr ""
+
+#: templates/strings.js:96
+msgid "Please refresh and start over."
+msgstr ""
+
+#: templates/strings.js:97
+msgid "Please check the acceptance of terms checkbox at bottom."
+msgstr ""
+
+#: templates/strings.js:98
+msgid "Next"
+msgstr ""
+
+#: templates/strings.js:99
+#, fuzzy
+#| msgid "Submitted"
+msgid "Submit"
+msgstr "जमा किया गया"
+
+#: templates/strings.js:100
+#, fuzzy
+#| msgid "Your private custom licenses"
+msgid "Add custom license"
+msgstr "आपके निजी कस्टम लाइसेंस"
+
+#: templates/strings.js:101
+msgid "License name required"
+msgstr ""
+
+#: templates/strings.js:102
+msgid "License description required"
+msgstr ""
+
+#: templates/strings.js:103
+msgid "License text required"
+msgstr ""
+
+#: templates/strings.js:104
+#, fuzzy
+#| msgid "Create account"
+msgid "Create license"
+msgstr "अकाउंट बनाएं"
+
+#: templates/strings.js:105
+#, fuzzy
+#| msgid "License"
+msgid "License created"
+msgstr "लाइसेंस"
+
+#: templates/strings.js:106
+msgid "Up to 5 topics allowed"
+msgstr ""
+
+#: templates/strings.js:107
+msgid "Up to 5 tags allowed"
+msgstr ""
+
+#: templates/strings.js:108
+#, fuzzy, python-format
+#| msgid "Deactivate Account"
+msgid "Deactivate your %(APPNAME)s account?"
+msgstr "खाता निष्क्रिय करें"
+
+#: templates/strings.js:109
+msgid "You can reactivate your account by logging in again anytime."
+msgstr ""
+
+#: templates/strings.js:110
+msgid ""
+"This also implies that your profile URL will not work during this period of "
+"deactivation."
+msgstr ""
+
+#: templates/strings.js:111
+msgid ""
+"Your account will NOT get deleted, instead, it will be hidden from everyone."
+msgstr ""
+
+#: templates/strings.js:112
+#, fuzzy
+#| msgid "Inactive"
+msgid "de-activate"
+msgstr "निष्क्रिय"
+
+#: templates/strings.js:113
+#, fuzzy
+#| msgid "on your account"
+msgid "your account"
+msgstr "आपके खाते पर"
+
+#: templates/strings.js:114
+#, fuzzy
+#| msgid "Re-activate my account"
+msgid "Deactivate my account"
+msgstr "मेरा खाता सक्रिय करें"
+
+#: templates/strings.js:115
+#, fuzzy
+#| msgid "Deactivate Account"
+msgid "Deactivating account..."
+msgstr "खाता निष्क्रिय करें"
+
+#: templates/strings.js:116
+#, fuzzy
+#| msgid "Your account is currently deactived."
+msgid "Your account has been deactivated."
+msgstr "आपका खाता वर्तमान में निष्क्रिय है"
+
+#: templates/strings.js:117
+msgid "No, go back!"
+msgstr ""
+
+#~ msgid "Continue via Github"
+#~ msgstr "Github के माध्यम से जारी रखें"
+
+#~ msgid "Continue via Discord"
+#~ msgstr "Discord के माध्यम से जारी रखें"
+
+#~ msgid "Type to search for projects"
+#~ msgstr "प्रोजेक्ट खोजने के लिए टाइप करें"
 
 #~ msgid "Server error"
 #~ msgstr "सर्वर त्रुटि"
@@ -2691,6 +3338,3 @@ msgstr ""
 
 #~ msgid "Getting Started"
 #~ msgstr "शुरू करना"
-
-#~ msgid "People"
-#~ msgstr "लोग"
