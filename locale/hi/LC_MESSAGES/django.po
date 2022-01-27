@@ -3076,7 +3076,7 @@ msgstr "GitHub आईडी आवश्यक"
 #: templates/strings.js:61
 #, python-format
 msgid "Your GitHub identity must be linked with %(APPNAME)s for this action."
-msgstr "इस क्रिया के लिए आपकी GitHub पहचान को %(APPNAME)s के साथ जोड़ा जाना चाहिए।""
+msgstr "इस क्रिया के लिए आपकी GitHub पहचान को %(APPNAME)s के साथ जोड़ा जाना चाहिए।"
 
 #: templates/strings.js:64
 msgid "Oops! Something went wrong."
