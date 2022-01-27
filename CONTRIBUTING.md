@@ -26,3 +26,6 @@ msgstr ""
 "अनुवाद में अपने योगदान के लिए %(USERNAME)s "
 "का धन्यवाद।"
 ```
+
+Keep the translations gender neutral if applicable, and use respectable tone of translation in your language.
+Do not use foul or explicit terms in translations.
