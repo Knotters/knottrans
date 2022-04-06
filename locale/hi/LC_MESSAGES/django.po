@@ -3020,16 +3020,16 @@ msgstr ""
 
 #: templates/projects/profile/0.html:386 templates/projects/profile/2.html:393
 msgid "Created by"
-msgstr ""
+msgstr "निर्माता"
 
 #: templates/projects/profile/0.html:448 templates/projects/profile/1.html:461
 #: templates/projects/profile/2.html:481
 msgid "Publish snapshot"
-msgstr ""
+msgstr "स्नैपशॉट प्रकाशित करें"
 
 #: templates/projects/profile/0.html:458 templates/projects/profile/2.html:491
 msgid "Load more"
-msgstr ""
+msgstr "और लोड करें"
 
 #: templates/projects/profile/2.html:396
 #, fuzzy
@@ -3059,64 +3059,64 @@ msgstr ""
 
 #: templates/strings.js:7
 msgid "Updating..."
-msgstr ""
+msgstr "अपडेट हो रहा है..."
 
 #: templates/strings.js:9
 msgid "Okay, we won\\'t remind you in this session."
-msgstr ""
+msgstr "ठीक है, हम आपको इस सत्र में याद नहीं दिलाएंगे।"
 
 #: templates/strings.js:10
 msgid "An internal error occurred. We humbly request you to reload this page."
-msgstr ""
+msgstr "एक आंतरिक त्रुटि हुई। हम आपसे विनम्रतापूर्वक अनुरोध करते हैं कि इस पृष्ठ को पुनः लोड करें।"
 
 #: templates/strings.js:11
 msgid "App updated successfully."
-msgstr ""
+msgstr "ऐप सफलतापूर्वक अपडेट किया गया"
 
 #: templates/strings.js:12
 msgid "App installed successfully."
-msgstr ""
+msgstr "ऐप सफलतापूर्वक इंस्टॉल किया गया"
 
 #: templates/strings.js:13
 msgid ""
 "Your browser doesn\\'t support some of our features ☹️. Please update/change "
 "your browser for the best experience."
-msgstr ""
+msgstr "आपका ब्राउज़र हमारी कुछ सुविधाओं का समर्थन नहीं करता☹️। सर्वोत्तम अनुभव के लिए कृपया अपने ब्राउज़र को अपडेट/बदलें।"
 
 #: templates/strings.js:14
 #, python-format
 msgid "A new version of %(APPNAME)s is available"
-msgstr ""
+msgstr "%(APPNAME)s का एक नया संस्करण उपलब्ध है"
 
 #: templates/strings.js:15
 msgid "with new features"
-msgstr ""
+msgstr "नई सुविधाओं के साथ"
 
 #: templates/strings.js:16
 msgid "performance improvements"
-msgstr ""
+msgstr "कार्य में सुधार"
 
 #: templates/strings.js:17
 msgid "Shall we update?"
-msgstr ""
+msgstr "क्या हम अपडेट करें?"
 
 #: templates/strings.js:18
 msgid "Updates are important."
-msgstr ""
+msgstr "अपडेट महत्वपूर्ण हैं"
 
 #: templates/strings.js:19
 msgid "It will take a few seconds, depending upon your network strength."
-msgstr ""
+msgstr "आपके नेटवर्क की ताकत के आधार पर इसमें कुछ सेकंड लगेंगे।"
 
 #: templates/strings.js:20
 #, fuzzy
 #| msgid "Last updated on"
 msgid "Yes, update now"
-msgstr "अंतिम अद्यतन"
+msgstr "हाँ, अभी अपडेट करें"
 
 #: templates/strings.js:21
 msgid "No, not now"
-msgstr ""
+msgstr "नहीं, अभी नहीं"
 
 #: templates/strings.js:22
 #, fuzzy
@@ -3126,31 +3126,31 @@ msgstr "परिचय के लिए Alt+R दबाएं, या लैं
 
 #: templates/strings.js:23
 msgid "Update available"
-msgstr ""
+msgstr "अपडेट उपलब्ध"
 
 #: templates/strings.js:24
 msgid "Something went wrong."
-msgstr ""
+msgstr "कुछ गड़बडी हो गई"
 
 #: templates/strings.js:25
 msgid "Successfull"
-msgstr ""
+msgstr "सफल"
 
 #: templates/strings.js:26
 msgid "Network error, check your connection."
-msgstr ""
+msgstr "नेटवर्क त्रुटि, अपना कनेक्शन जांचें"
 
 #: templates/strings.js:27
 msgid "required"
-msgstr ""
+msgstr "आवश्यक"
 
 #: templates/strings.js:28
 msgid "Crop Image"
-msgstr ""
+msgstr "चित्र को काटो"
 
 #: templates/strings.js:29
 msgid "Image too large. Preferred size < 10 MB"
-msgstr ""
+msgstr "इमेज बहुत बड़ी है. आकार <10 एमबी होना चाहिए"
 
 #: templates/strings.js:30
 msgid "File too large. Preferred size < 10 MB"
@@ -3158,33 +3158,33 @@ msgstr ""
 
 #: templates/strings.js:32
 msgid "Confirm"
-msgstr ""
+msgstr "पुष्टि करना"
 
 #: templates/strings.js:33
 #, fuzzy
 #| msgid "The Landing Page"
 msgid "Loading image..."
-msgstr "लैंडिंग पेज"
+msgstr "छवि लोड हो रही है..."
 
 #: templates/strings.js:34
 msgid "Sharing not available on your system."
-msgstr ""
+msgstr "आपके सिस्टम पर साझाकरण उपलब्ध नहीं है"
 
 #: templates/strings.js:35
 msgid "Failed to process file"
-msgstr ""
+msgstr "फ़ाइल संसाधित करने में विफल"
 
 #: templates/strings.js:36
 msgid "Limit Exceeded"
-msgstr ""
+msgstr "सीमा पार हो गई"
 
 #: templates/strings.js:37
 msgid "Failed to logout"
-msgstr ""
+msgstr "लॉगआउट करने में विफल"
 
 #: templates/strings.js:38
 msgid "Logged out successfully"
-msgstr ""
+msgstr "सफलतापूर्वक लॉग आउट किया गया"
 
 #: templates/strings.js:39
 #, fuzzy
@@ -3200,32 +3200,32 @@ msgstr "क्लिपबोर्ड पर कॉपी करें"
 
 #: templates/strings.js:41
 msgid "Try that again?"
-msgstr ""
+msgstr "फिर से कोशिश करें?"
 
 #: templates/strings.js:42
 msgid "Take me to Knotters"
-msgstr ""
+msgstr "मुझे Knotters के पास ले चलो"
 
 #: templates/strings.js:43
 #, fuzzy, python-format
 #| msgid "Welcome to %(APPNAME)s"
 msgid "I\\'ll stay in %(APPNAME)s"
-msgstr "%(APPNAME)s में आपका स्वागत है"
+msgstr "मुझे %(APPNAME)s में रहना है"
 
 #: templates/strings.js:44
 #, python-format
 msgid "Remember, you\\'re using %(APPNAME)s, not Knotters!"
-msgstr ""
+msgstr "याद रखें, आप %(APPNAME)s का उपयोग कर रहे हैं, Knotters का नहीं!"
 
 #: templates/strings.js:45
 msgid "Glad we could help 😊! Do not hesitate to contact us anytime."
-msgstr ""
+msgstr "खुशी है कि हम मदद कर सके 😊! किसी भी समय हमसे संपर्क करने में संकोच न करें।"
 
 #: templates/strings.js:46
 msgid ""
 "We\\'re sorry to hear that. You may submit a report, or reach us via our "
 "social channels or email."
-msgstr ""
+msgstr "हमें यह सुनकर खेद हुआ। आप एक रिपोर्ट जमा कर सकते हैं, या हमारे सामाजिक चैनलों या ईमेल के माध्यम से हम तक पहुँच सकते हैं।"
 
 #: templates/strings.js:47
 #, fuzzy
@@ -3235,25 +3235,25 @@ msgstr "और जानने के लिए यहां क्लिक क
 
 #: templates/strings.js:48
 msgid "Problem solved!"
-msgstr ""
+msgstr "समस्या हल हो गई!"
 
 #: templates/strings.js:49
 msgid "I still have problems"
-msgstr ""
+msgstr "मुझे अभी भी समस्या है"
 
 #: templates/strings.js:50
 #, fuzzy
 #| msgid "Block"
 msgid "Blocking..."
-msgstr "ब्लॉक"
+msgstr "ब्लॉक किया जा रहा है"
 
 #: templates/strings.js:51
 msgid "No, wait!"
-msgstr ""
+msgstr "नहीं, रुको!"
 
 #: templates/strings.js:52
 msgid "Yes, block!"
-msgstr ""
+msgstr "हाँ, ब्लॉक!"
 
 #: templates/strings.js:53
 #, fuzzy
@@ -3269,7 +3269,7 @@ msgstr "ब्लॉक"
 
 #: templates/strings.js:56
 msgid "Click anywhere around the image to close preview."
-msgstr ""
+msgstr "पूर्वावलोकन बंद करने के लिए छवि के चारों ओर कहीं भी क्लिक करें।"
 
 #: templates/strings.js:57
 #, fuzzy
@@ -3279,11 +3279,11 @@ msgstr "क्या आप वाकई अक्षम करना चाह�
 
 #: templates/strings.js:58
 msgid "You can unblock them anytime from your profile\\'s privacy settings."
-msgstr ""
+msgstr "आप अपनी प्रोफ़ाइल गोपनीयता सेटिंग से उन्हें कभी भी अनब्लॉक कर सकते हैं।"
 
 #: templates/strings.js:59
 msgid "Leave it"
-msgstr ""
+msgstr "रहने दो"
 
 #: templates/strings.js:60
 #, fuzzy
@@ -3293,32 +3293,32 @@ msgstr "जुड़े खातों"
 
 #: templates/strings.js:61
 msgid "GitHub ID required"
-msgstr ""
+msgstr "GitHub आईडी आवश्यक"
 
 #: templates/strings.js:62
 #, python-format
 msgid "Your GitHub identity must be linked with %(APPNAME)s for this action."
-msgstr ""
+msgstr "इस क्रिया के लिए आपकी GitHub पहचान को %(APPNAME)s के साथ जोड़ा जाना चाहिए।"
 
 #: templates/strings.js:65
 msgid "Oops! Something went wrong."
-msgstr ""
+msgstr "उफ़! कुछ गड़बडी हो गई"
 
 #: templates/strings.js:66
 msgid "Theme set to system default"
-msgstr ""
+msgstr "थीम सिस्टम डिफ़ॉल्ट पर सेट है"
 
 #: templates/strings.js:67
 msgid "Use"
-msgstr ""
+msgstr "इस्तेमाल करें"
 
 #: templates/strings.js:68
 msgid "to toggle it."
-msgstr ""
+msgstr "इसे टॉगल करने के लिए"
 
 #: templates/strings.js:69
 msgid "Successfully subscribed to notifications of"
-msgstr ""
+msgstr "अधिसूचनाओं की सफलतापूर्वक सदस्यता ली गई"
 
 #: templates/strings.js:70
 msgid "Subscription unavailable"
@@ -3326,21 +3326,21 @@ msgstr ""
 
 #: templates/strings.js:71
 msgid "Successfully unsubscribed from notifications of"
-msgstr ""
+msgstr "अधिसूचनाओं से सफलतापूर्वक सदस्यता समाप्त की गई"
 
 #: templates/strings.js:74
 msgid "received and will be looked into."
-msgstr ""
+msgstr "प्राप्त किया और उस पर गौर किया जाएगा"
 
 #: templates/strings.js:76
 msgid "Your identity will remain private."
-msgstr ""
+msgstr "आपकी पहचान गुप्त रहेगी"
 
 #: templates/strings.js:77
 #, fuzzy
 #| msgid "Competition"
 msgid "optional"
-msgstr "प्रतियोगिता"
+msgstr "ऐच्छिक"
 
 #: templates/strings.js:78
 msgid "Your name (or organization name)"
@@ -3352,21 +3352,21 @@ msgstr ""
 
 #: templates/strings.js:80
 msgid "Explain everything here in detail"
-msgstr ""
+msgstr "यहां सब कुछ विस्तार से बताएं"
 
 #: templates/strings.js:81
 #, fuzzy
 #| msgid "Association"
 msgid "Short description"
-msgstr "सहयोग"
+msgstr "संक्षिप्त विवरण"
 
 #: templates/strings.js:82
 msgid "Short description required"
-msgstr ""
+msgstr "संक्षिप्त विवरण आवश्यक है"
 
 #: templates/strings.js:83
 msgid "Send"
-msgstr ""
+msgstr "भेजें"
 
 #: templates/strings.js:84
 #, fuzzy
@@ -3376,7 +3376,7 @@ msgstr "जमा किया गया"
 
 #: templates/strings.js:85
 msgid "Select category"
-msgstr ""
+msgstr "श्रेणी चुनें"
 
 #: templates/strings.js:86
 #, fuzzy
@@ -3390,7 +3390,7 @@ msgstr "सूचना दी"
 
 #: templates/strings.js:88
 msgid "We\\'ll investigate."
-msgstr ""
+msgstr "हम जांच करेंगे"
 
 #: templates/strings.js:89
 #, fuzzy
@@ -3400,25 +3400,25 @@ msgstr "प्रोजेक्ट हटाएं"
 
 #: templates/strings.js:90 templates/view_snapshot.html:29
 msgid "Snapshot"
-msgstr ""
+msgstr "स्नैपशॉट"
 
 #: templates/strings.js:91
 msgid "delete the snapshot"
-msgstr ""
+msgstr "स्नैपशॉट हटाएं"
 
 #: templates/strings.js:92
 #, fuzzy
 #| msgid "Project deleted"
 msgid "Yes, delete"
-msgstr "परियोजना हटाई गई"
+msgstr "हां, हटाएं"
 
 #: templates/strings.js:93
 msgid "No snapshots"
-msgstr ""
+msgstr "कोई स्नैपशॉट नहीं"
 
 #: templates/strings.js:94
 msgid "No more snapshots"
-msgstr ""
+msgstr "कोई और स्नैपशॉट नहीं"
 
 #: templates/strings.js:95
 #, fuzzy
@@ -3428,23 +3428,23 @@ msgstr "प्रोजेक्ट बनाएं"
 
 #: templates/strings.js:96
 msgid "Click on a license bubble to choose one."
-msgstr ""
+msgstr "किसी एक को चुनने के लिए लाइसेंस बबल पर क्लिक करें।"
 
 #: templates/strings.js:97
 msgid "Some values are invalid."
-msgstr ""
+msgstr "कुछ मान अमान्य हैं"
 
 #: templates/strings.js:98
 msgid "Please refresh and start over."
-msgstr ""
+msgstr "कृपया ताज़ा करें और फिर से शुरू करें।"
 
 #: templates/strings.js:99
 msgid "Please check the acceptance of terms checkbox at bottom."
-msgstr ""
+msgstr "कृपया नीचे दिए गए शर्तों की स्वीकृति चेकबॉक्स को चेक करें।"
 
 #: templates/strings.js:100
 msgid "Next"
-msgstr ""
+msgstr "अगला"
 
 #: templates/strings.js:101
 #, fuzzy
@@ -3460,15 +3460,15 @@ msgstr "आपके निजी कस्टम लाइसेंस"
 
 #: templates/strings.js:103
 msgid "License name required"
-msgstr ""
+msgstr "लाइसेंस नाम आवश्यक"
 
 #: templates/strings.js:104
 msgid "License description required"
-msgstr ""
+msgstr "लाइसेंस विवरण आवश्यक"
 
 #: templates/strings.js:105
 msgid "License text required"
-msgstr ""
+msgstr "लाइसेंस पाठ आवश्यक"
 
 #: templates/strings.js:106
 #, fuzzy
@@ -3484,11 +3484,11 @@ msgstr "लाइसेंस"
 
 #: templates/strings.js:108
 msgid "Up to 5 topics allowed"
-msgstr ""
+msgstr "अधिकतम 5 विषयों की अनुमति है"
 
 #: templates/strings.js:109
 msgid "Up to 5 tags allowed"
-msgstr ""
+msgstr "5 टैग तक की अनुमति है"
 
 #: templates/strings.js:110
 #, fuzzy, python-format
@@ -3498,18 +3498,18 @@ msgstr "खाता निष्क्रिय करें"
 
 #: templates/strings.js:111
 msgid "You can reactivate your account by logging in again anytime."
-msgstr ""
+msgstr "आप किसी भी समय फिर से लॉग इन करके अपने खाते को पुनः सक्रिय कर सकते हैं।"
 
 #: templates/strings.js:112
 msgid ""
 "This also implies that your profile URL will not work during this period of "
 "deactivation."
-msgstr ""
+msgstr "इसका मतलब यह भी है कि निष्क्रियता की इस अवधि के दौरान आपका प्रोफ़ाइल URL काम नहीं करेगा।"
 
 #: templates/strings.js:113
 msgid ""
 "Your account will NOT get deleted, instead, it will be hidden from everyone."
-msgstr ""
+msgstr "आपका अकाउंट डिलीट नहीं होगा, बल्कि इसे सभी से छुपाया जाएगा।"
 
 #: templates/strings.js:114
 #, fuzzy
@@ -3543,7 +3543,7 @@ msgstr "आपका खाता वर्तमान में निष्�
 
 #: templates/strings.js:119
 msgid "No, go back!"
-msgstr ""
+msgstr "नहीं, वापस जाओ!"
 
 #: templates/strings.js:120 templates/strings.js:121
 msgid ""
@@ -4116,10 +4116,10 @@ msgstr ""
 #~ msgstr "अक्षम करें"
 
 #~ msgid "Continue via Github"
-#~ msgstr "Github के माध्यम से जारी रखें"
+#~ msgstr "Github से जारी रखें"
 
 #~ msgid "Continue via Discord"
-#~ msgstr "Discord के माध्यम से जारी रखें"
+#~ msgstr "Discord से जारी रखें"
 
 #~ msgid "Type to search for projects"
 #~ msgstr "प्रोजेक्ट खोजने के लिए टाइप करें"
